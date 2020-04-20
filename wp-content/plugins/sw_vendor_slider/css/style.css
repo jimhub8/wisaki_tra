@@ -1,0 +1,19 @@
+*, html{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.sw-vendor-container-slider .resp-slider-container .item-vendor{
+	padding: 0 15px;
+}
+.sw-vendor-container-slider .resp-slider-container .item-vendor .item-detail + div.item-detail{
+	margin-top: 30px;
+	border-top: 1px solid #eee;
+}
+.sw-vendor-container-slider .resp-slider-container .item-vendor .item-detail .item-img{
+	margin-bottom: 10px;
+}
+.sw-vendor-container-slider .resp-slider-container .item-vendor .item-detail h4{
+	font-size: 14px;
+	text-transform: uppercase;
+}

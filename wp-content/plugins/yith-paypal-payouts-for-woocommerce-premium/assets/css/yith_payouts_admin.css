@@ -1,0 +1,108 @@
+#yith_wc_paypal_payouts_panel_payout-receivers table.yith_payouts_receiver_table {
+    width: 100%;
+    padding: 0!important
+}
+
+#yith_wc_paypal_payouts_panel_payout-receivers table.yith_payouts_receiver_table th {
+    padding: 7px 0 7px 7px!important
+}
+
+
+#yith_wc_paypal_payouts_panel_payout-receivers table.yith_payouts_receiver_table td {
+    vertical-align: middle!important;
+    padding: 4px 0 4px 7px!important;
+    position: relative
+}
+
+#yith_wc_paypal_payouts_panel_payout-receivers table.yith_payouts_receiver_table td:last-child{
+    padding-right: 7px!important
+}
+
+#yith_wc_paypal_payouts_panel_payout-receivers table.yith_payouts_receiver_table td input, #yith_wc_paypal_payouts_panel_payout-receivers table.yith_payouts_receiver_table td span.select2 {
+    width: 100%!important;
+    float: none;
+    min-width: 0;
+    margin: 1px 0
+}
+
+
+#yith_wc_paypal_payouts_panel_payout-receivers table.yith_payouts_receiver_table td .delete {
+    display: block;
+    text-indent: -9999px;
+    position: relative;
+    height: 1em;
+    width: 1em;
+    font-size: 1.2em
+}
+
+#yith_wc_paypal_payouts_panel_payout-receivers table.yith_payouts_receiver_table td .delete::before {
+    font-family: Dashicons;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\f158";
+    color: #999
+}
+
+#yith_wc_paypal_payouts_panel_payout-receivers table.yith_payouts_receiver_table td .delete:hover::before{
+    color: #a00
+}
+
+.column-details {
+    width: 37px!important;
+    max-width: 37px!important;
+}
+
+/* Payout Item preview */
+
+.wp-list-table.payoutitems .payout-item-preview {
+    float: right;
+    width: 16px;
+    padding: 20px 4px 4px 4px;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 4px;
+}
+.wp-list-table.payoutitems .payout-item-preview:before{
+    font-family: WooCommerce;
+    speak: none;
+    font-weight: 400;
+    text-transform: none;
+    text-indent: 0px;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\e010";
+    line-height: 16px;
+    font-size: 14px;
+    vertical-align: middle;
+    top: 4px;
+    font-variant: normal;
+    margin: 0px;
+}
+
+.wc-payout-item-preview .order-status.status-blocked,
+.wc-payout-item-preview .order-status.status-failed,
+.wc-payout-item-preview .order-status.status-denied{
+    background: #ff0000;
+}
+
+.wc-payout-item-preview .order-status.status-success{
+    background: #c8d7e1;
+    color: #2e4453;
+}

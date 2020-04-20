@@ -1,0 +1,147 @@
+
+---Downloaded files---
+The import files for: Demo Homepage 4 were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = https://woocommerce-317638-1182484.cloudwaysapps.com
+Data file = /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/themes/emarket/lib/import/demo-4/demo-content.xml
+Widget file = /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/themes/emarket/lib/import/demo-4/widgets.json
+Customizer file = not defined!
+Options files:
+emarket_theme -> /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/themes/emarket/lib/import/demo-4/theme_options.txt 
+
+
+------
+New AJAX call!
+3804
+
+
+------
+New AJAX call!
+3953
+
+
+------
+New AJAX call!
+621
+
+
+---Importing widgets---
+orphaned_widgets_1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+SW Ajax WooCommerce Search - No Title - Imported to Inactive
+
+Sidebar Left Blog : 
+
+Categories - No Title - Imported
+Text - No Title - Imported
+
+Sidebar Right Blog : 
+
+Categories - No Title - Imported
+Text - No Title - Imported
+
+Top Header : 
+
+Text - No Title - Imported
+WooCommerce Currency Converter - No Title - Imported
+Text - No Title - Imported
+
+Mid Header : 
+
+Text - No Title - Imported
+SW Top Widget - No Title - Imported
+
+Bottom Header : 
+
+SW Top Widget - No Title - Imported
+Navigation Menu - No Title - Imported
+
+Sidebar Left Product : 
+
+Filter Products by Attribute - Color - Imported
+Filter Products by Attribute - Size - Imported
+Filter Products by Price - Price - Imported
+Text - No Title - Imported
+Image - No Title - Imported
+
+Sidebar Right Product : 
+
+WooCommerce product categories - Categories - Imported
+Filter Products by Attribute - Color - Imported
+Filter Products by Attribute - Size - Imported
+Filter Products by Price - price - Imported
+Text - No Title - Imported
+Image - No Title - Imported
+
+Sidebar Left Detail Product : 
+
+WooCommerce product categories - Categories - Imported
+Text - No Title - Imported
+Image - No Title - Imported
+
+Sidebar Right Detail Product : 
+
+WooCommerce product categories - Categories - Imported
+Image - No Title - Imported
+Text - No Title - Imported
+
+Sidebar Bottom Detail Product : 
+
+Sw Woocommerce Related &amp; Upsell Slider widget - No Title - Imported
+
+Footer Copyright : 
+
+Image - No Title - Imported
+
+Widget Search : 
+
+SW Ajax WooCommerce Search - No Title - Imported
+
+Widget Mobile Top : 
+
+Text - No Title - Imported
+WooCommerce Currency Converter - No Title - Imported
+
+
+
+---pt-ocdi/after_import---
+array(10) {
+  ["import_file_name"]=>
+  string(15) "Demo Homepage 4"
+  ["page_title"]=>
+  string(11) "Home Page 4"
+  ["local_import_file"]=>
+  string(114) "/home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/themes/emarket/lib/import/demo-4/demo-content.xml"
+  ["local_import_widget_file"]=>
+  string(110) "/home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/themes/emarket/lib/import/demo-4/widgets.json"
+  ["local_import_revslider"]=>
+  array(1) {
+    ["slide1"]=>
+    string(112) "/home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/themes/emarket/lib/import/demo-4/slideshow5.zip"
+  }
+  ["local_import_options"]=>
+  array(1) {
+    [0]=>
+    array(2) {
+      ["file_path"]=>
+      string(115) "/home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/themes/emarket/lib/import/demo-4/theme_options.txt"
+      ["option_name"]=>
+      string(13) "emarket_theme"
+    }
+  }
+  ["menu_locate"]=>
+  array(2) {
+    ["primary_menu"]=>
+    string(12) "Primary Menu"
+    ["vertical_menu"]=>
+    string(13) "Verticle Menu"
+  }
+  ["import_preview_image_url"]=>
+  string(111) "https://woocommerce-317638-1182484.cloudwaysapps.com/wp-content/themes/emarket/lib/import/demo-4/screenshot.png"
+  ["import_notice"]=>
+  string(114) "After you import this demo, you will have to setup the slider separately. This import maybe finish on 5-10 minutes"
+  ["preview_url"]=>
+  string(52) "http://demo.wpthemego.com/themes/sw_emarket/layout4/"
+}
+

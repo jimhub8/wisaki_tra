@@ -1,0 +1,29 @@
+.wcst_shipping_info_box li input:not([type="checkbox"]), .wcst_shipping_info_box li select, .wcst_shipping_info_box li textarea
+{
+	width: 98%;
+}
+p.wcst_extra_delivery_row
+{
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+#wcst-additional-shipping-button
+{
+	margin-bottom: 40px;
+}
+.wcst_option_title
+{
+	margin-top:5px; 
+	margin-bottom: 10px
+}
+/* .wcst_shipping_info_box li input
+{
+	display: inline;
+	width: auto;
+} */
+.wcst_option_container {
+	padding: 10px;
+	border: 1px #e6e6e6 solid;
+	margin: 20px 0px 12px 0px;
+}

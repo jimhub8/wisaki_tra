@@ -1,0 +1,450 @@
+# Copyright (C) 2019 YITH WooCommerce Order Tracking Premium
+# This file is distributed under the same license as the YITH WooCommerce Order Tracking Premium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Order Tracking Premium 1.5.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2019-02-01 09:34:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: class.carriers.php:1509
+msgctxt "no carrier selected in the order tracking metabox"
+msgid "No carrier selected"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:150
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:176
+msgid "Failed to import row %s. \"%s\" is not a valid order id."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:182
+msgid "Failed to import row %s: %s is not a known carrier code."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:208
+msgid "Completed order tracking details imported from CSV file"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:213
+msgid "The CSV file is invalid."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:220
+msgid ""
+"Operation completed - imported <strong>%s/%s</strong> valid tracking codes."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:252
+msgid "Invalid file type"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:302
+msgid "Remote server did not respond"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:309
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:317
+msgid "The size of the remote file is not valid"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:323
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:330
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:363
+msgid "All done!"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:404
+msgid "YITH Order Tracking Importer"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:428
+msgid ""
+"Hi there! Upload a CSV file containing order's tracking codes to import the "
+"contents into your shop. Choose a .csv file to upload, then click \"Upload "
+"file and import\"."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:430
+msgid ""
+"Please look at this. It is a sample of how the CSV file should look like."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:432
+msgid "Click here to download a sample."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:435
+msgid "Important note."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:436
+msgid ""
+"The carrier's code should match one of the carrier codes supported. Before "
+"importing data, please, ensure that the carrier code in the CSV file matches "
+"one of the supported carriers. See the table below for further details on "
+"carrier codes."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:451
+msgid "Before uploading your import file, you need to fix the following error:"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:463
+msgid "Choose a file from your computer:"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:469
+msgid "Maximum size: %s"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:475
+msgid " OR enter path to file:"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:483
+msgid "Delimiter"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:490
+msgid "Upload file to import"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:497
+msgid "Carrier code"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:498
+msgid "Carrier name"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-importer.php:540
+msgid "Sorry, an error has occurred. "
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:137
+msgctxt "placeholder for carrier name in YITH SMS Notification"
+msgid "Test carrier name"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:138
+msgctxt "placeholder for tracking code in YITH SMS Notification"
+msgid "Test tracking code"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:139
+msgctxt "placeholder for shipping date in YITH SMS Notification"
+msgid "Test shipping date"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:140
+msgctxt "placeholder for tracking url in YITH SMS Notification"
+msgid "Test tracking url"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:215
+msgid "The order was picked up."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:220
+msgid "YITH Order Tracking (CSV)"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:220
+msgid "Import tracking codes via csv file."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:262
+msgid "Import CSV"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:310
+msgid "Order tracking information"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:314
+msgid "Vendor"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:315
+msgid "Track shipping"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:326
+msgid "<b>Current shop</b>"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:403
+msgid "Text in emails"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:406
+msgid ""
+"This is the text of the email that will be sent to the buyer when the order "
+"is marked as complete. You can customize the text using the following 3 "
+"placeholders, which represent real shipping information."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:407
+#: plugin-options/general-options.php:53
+msgid ""
+"Your order has been picked up by [carrier_name] on [pickup_date]. Your track "
+"code is [track_code]."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:412
+msgid "Position of the text in emails"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:415
+#: plugin-options/general-options.php:61
+msgid ""
+"Choose if tracking text have to be shown on top (before order product list) "
+"or on bottom (after product list)."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:417
+#: plugin-options/general-options.php:63
+msgid "Show on top"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:418
+#: plugin-options/general-options.php:64
+msgid "Show on bottom"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:425
+msgid ""
+"Activate the plugin %s in order to include the shipping information in the "
+"packing slip."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:430
+msgid "Show in packing slip"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:433
+msgid ""
+"Show tracking information in the packing slip generated by <b>YITH PDF "
+"Invoice</b>. "
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:439
+msgid "Import tracking codes"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:522
+msgid "Warning"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:523
+msgid ""
+"The following tracking information is only valid for products belonging to "
+"current admin/vendor."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:537
+msgid "Tracking code:"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:540
+msgid "Enter tracking code"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:546
+msgid "Tracking postcode: (optional)"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:549
+msgid "Enter tracking postcode"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:555
+msgid "Carrier name:"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:567
+msgid "Pickup date:"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:571
+msgid "Enter pick up date"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:580
+msgid "Order picked up"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:614
+msgid "Live track your order"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:622
+msgid "Go to your order page to live track this shipping"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:748
+msgid "Track url not found."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:756
+#: class.yith-woocommerce-order-tracking.php:258
+msgid "Track"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking-premium.php:833
+msgid "Tracking details"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking.php:280
+msgid ""
+"This order contains shipping costs from more than one seller. Click here to "
+"see details."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking.php:450
+msgid "General"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking.php:454
+msgid "Carriers"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking.php:456
+msgid "Premium Version"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking.php:549
+msgid ""
+"YITH WooCommerce Order Tracking is available in an outstanding PREMIUM "
+"version with many new options, discover it now."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking.php:550
+msgid "Premium version"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking.php:557
+msgid "YITH WooCommerce Order Tracking"
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking.php:558
+msgid ""
+"In YIT Plugins tab you can find YITH WooCommerce Order Tracking options. "
+"From this menu you can access all settings of YITH plugins activated."
+msgstr ""
+
+#: class.yith-woocommerce-order-tracking.php:602
+msgctxt "Order tracking metabox title"
+msgid "Order tracking"
+msgstr ""
+
+#: init.php:33
+msgid ""
+"YITH WooCommerce Order Tracking is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#: plugin-options/carriers-options.php:19
+msgid "List of supported carriers"
+msgstr ""
+
+#: plugin-options/carriers-options.php:20
+msgid ""
+"Check carriers that will be used for order shipping. <b>If you shouldn't "
+"find your favorite carrier in this list, please open a ticket on support."
+"yithemes.com. Our support team will be glad to add it as soon as possible.</"
+"b>"
+msgstr ""
+
+#: plugin-options/general-options.php:18 plugin-options/general-options.php:26
+msgid "Default carrier name"
+msgstr ""
+
+#: plugin-options/general-options.php:21
+msgid ""
+"  To display the list of carriers, you have to select them first from the "
+"specific \"Carriers\" tab that you can find in the top part of the screen."
+msgstr ""
+
+#: plugin-options/general-options.php:37
+msgid "General settings"
+msgstr ""
+
+#: plugin-options/general-options.php:43
+msgid "Complete order"
+msgstr ""
+
+#: plugin-options/general-options.php:47
+msgid ""
+"Choose if you want to automatically set the order status to \"completed\" "
+"when the order is set as picked up"
+msgstr ""
+
+#: plugin-options/general-options.php:50
+msgid "Text in the Orders page"
+msgstr ""
+
+#: plugin-options/general-options.php:54
+msgid ""
+"This is the text showed in Order details page. You can customize the text "
+"using the following 3 placeholders, representing real shipping information."
+msgstr ""
+
+#: plugin-options/general-options.php:58
+msgid "Position of the text in the Orders page"
+msgstr ""
+
+#: templates/admin/carriers.php:13
+msgid "Select/Unselect all"
+msgstr ""
+
+#: templates/admin/carriers.php:20
+msgid "Type to search..."
+msgstr ""
+
+#: templates/admin/carriers.php:23
+msgid "Sorry, no carriers matching your terms..."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "YITH WooCommerce Order Tracking Premium"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-order-tracking/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"With <code><strong>YITH WooCommerce Order Tracking Premium</strong></code> "
+"you can easy manage the order tracking information for WooCommerce orders. "
+"Select shipping company from a huge list of international carriers and let "
+"your customers track their orders with dynamically created track urls. <a "
+"href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-"
+"commerce shop on <strong>YITH</strong></a>."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://yithemes.com/"
+msgstr ""

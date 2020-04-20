@@ -1,0 +1,48 @@
+.fancybox-wrap {
+	.fancybox-outer {
+		background-color: #fff;
+		.product_detail .content_product_detail .product-summary-bottom .cart .quantity {
+			margin-right: 10px;
+			.rtl & {
+				margin-right: 0;
+				margin-left: 10px;
+			}
+		}
+	}
+}
+.quickview-container.woocommerce {
+	padding-top: 15px;
+	.slider_img_productd{
+		span.onsale{
+			display:none;
+		}
+	}
+	.product_detail .content_product_detail{
+		padding-bottom:15px;
+	}
+	.product_detail .content_product_detail .product-info{
+		padding:20px 0 10px;
+	}
+	.in-stock{
+		color:#77a464 !important;
+	}
+	.out-stock{
+		color:#ff3c20 !important;
+	}
+	div.product p.price ins{
+		float:left;
+		margin-left:0;
+		.rtl &{
+			float:right;
+			margin-right:0;
+			margin-left:10px;
+		}
+	}
+	.product_detail .content_product_detail .yith-wcwl-add-to-wishlist .yith-wcwl-add-button a{
+		border-radius:50% !important;
+		background-image:none;
+		&:hover{
+			background-color:@color !important;
+		}
+	}
+}

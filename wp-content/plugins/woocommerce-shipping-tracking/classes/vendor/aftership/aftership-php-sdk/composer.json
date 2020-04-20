@@ -1,0 +1,24 @@
+{
+    "name": "aftership/aftership-php-sdk",
+    "description": "The PHP SDK of AfterShip API",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "keywords": ["aftership", "track", "ups", "usps", "fedex", "shipping", "tracking", "dhl"],
+    "authors": [
+        {
+            "name": "AfterShip",
+            "email": "support@aftership.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AfterShip\\": "src/"
+        }
+    }
+}

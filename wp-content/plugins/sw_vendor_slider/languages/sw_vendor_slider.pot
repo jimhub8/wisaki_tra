@@ -1,0 +1,228 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: SW Woocommerce\n"
+"POT-Creation-Date: 2018-11-21 16:20+0700\n"
+"PO-Revision-Date: 2015-12-25 14:46+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html__;esc_html_e;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/sw-vendor-slider-widget.php:26
+msgid "Sw Vendor Slider"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:32
+msgid "Sw Vendor Slider Widget"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:155
+#: includes/sw-vendor-slider-widget.php:166
+msgid "Select User"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:254 includes/visual-map.php:74
+#: includes/visual-map.php:78 includes/visual-map.php:248
+#: includes/visual-map.php:252 includes/visual-map.php:422
+#: includes/visual-map.php:426
+msgid "Title"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:261 includes/visual-map.php:57
+#: includes/visual-map.php:231 includes/visual-map.php:405
+msgid "Select Users"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:267
+msgid "User description length (in words): "
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:275
+msgid "Number row per column:  "
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:296 includes/visual-map.php:126
+#: includes/visual-map.php:300 includes/visual-map.php:474
+msgid "Number of Columns >1200px: "
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:316
+msgid "Number of Columns on 992px to 1199px: "
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:336
+msgid "Number of Columns on 768px to 991px: "
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:356
+msgid "Number of Columns on 480px to 767px: "
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:376
+msgid "Number of Columns in 480px or less than: "
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:396 includes/visual-map.php:186
+#: includes/visual-map.php:190 includes/visual-map.php:360
+#: includes/visual-map.php:364 includes/visual-map.php:534
+#: includes/visual-map.php:538
+msgid "Auto Play"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:402
+msgid "False"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:405
+msgid "True"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:411 includes/visual-map.php:196
+#: includes/visual-map.php:200 includes/visual-map.php:370
+#: includes/visual-map.php:374 includes/visual-map.php:544
+#: includes/visual-map.php:548
+msgid "Interval"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:418 includes/visual-map.php:176
+#: includes/visual-map.php:350 includes/visual-map.php:524
+msgid "Speed"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:426 includes/visual-map.php:216
+#: includes/visual-map.php:220 includes/visual-map.php:390
+#: includes/visual-map.php:394 includes/visual-map.php:564
+#: includes/visual-map.php:568
+msgid "Total Items Slided"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:433
+msgid "Template"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:440
+msgid "Default"
+msgstr ""
+
+#: includes/sw-vendor-slider-widget.php:444
+msgid "Layout 1"
+msgstr ""
+
+#: includes/themes/default-dokan.php:23
+msgid "N/A"
+msgstr ""
+
+#: includes/themes/default-dokan.php:78 includes/themes/default-wcm.php:69
+#: includes/themes/default.php:67
+msgid "Shop Now"
+msgstr ""
+
+#: includes/themes/default-dokan.php:88 includes/themes/default-wcm.php:79
+#: includes/themes/default.php:77
+msgid "There is not vendor on this component"
+msgstr ""
+
+#: includes/visual-map.php:64
+msgid "Sw Vendor Slider WC Vendor"
+msgstr ""
+
+#: includes/visual-map.php:68 includes/visual-map.php:242
+#: includes/visual-map.php:416
+msgid "SW Shortcodes"
+msgstr ""
+
+#: includes/visual-map.php:84 includes/visual-map.php:258
+#: includes/visual-map.php:432
+msgid "Users"
+msgstr ""
+
+#: includes/visual-map.php:88 includes/visual-map.php:262
+#: includes/visual-map.php:436
+msgid "Select Categories"
+msgstr ""
+
+#: includes/visual-map.php:95 includes/visual-map.php:99
+#: includes/visual-map.php:269 includes/visual-map.php:273
+#: includes/visual-map.php:443 includes/visual-map.php:447
+msgid "Number Of Post"
+msgstr ""
+
+#: includes/visual-map.php:106 includes/visual-map.php:280
+#: includes/visual-map.php:454
+msgid "Description Length"
+msgstr ""
+
+#: includes/visual-map.php:110 includes/visual-map.php:284
+#: includes/visual-map.php:458
+msgid "Number word of description to show"
+msgstr ""
+
+#: includes/visual-map.php:116 includes/visual-map.php:120
+#: includes/visual-map.php:290 includes/visual-map.php:294
+#: includes/visual-map.php:464 includes/visual-map.php:468
+msgid "Number row per column"
+msgstr ""
+
+#: includes/visual-map.php:130 includes/visual-map.php:304
+#: includes/visual-map.php:478
+msgid "Number of Columns >1200px:"
+msgstr ""
+
+#: includes/visual-map.php:136 includes/visual-map.php:140
+#: includes/visual-map.php:310 includes/visual-map.php:314
+#: includes/visual-map.php:484 includes/visual-map.php:488
+msgid "Number of Columns on 992px to 1199px:"
+msgstr ""
+
+#: includes/visual-map.php:146 includes/visual-map.php:150
+#: includes/visual-map.php:320 includes/visual-map.php:324
+#: includes/visual-map.php:494 includes/visual-map.php:498
+msgid "Number of Columns on 768px to 991px:"
+msgstr ""
+
+#: includes/visual-map.php:156 includes/visual-map.php:160
+#: includes/visual-map.php:330 includes/visual-map.php:334
+#: includes/visual-map.php:504 includes/visual-map.php:508
+msgid "Number of Columns on 480px to 767px:"
+msgstr ""
+
+#: includes/visual-map.php:166 includes/visual-map.php:170
+#: includes/visual-map.php:340 includes/visual-map.php:344
+#: includes/visual-map.php:514 includes/visual-map.php:518
+msgid "Number of Columns in 480px or less than:"
+msgstr ""
+
+#: includes/visual-map.php:180 includes/visual-map.php:354
+#: includes/visual-map.php:528
+msgid "Speed Of Slide"
+msgstr ""
+
+#: includes/visual-map.php:206 includes/visual-map.php:210
+#: includes/visual-map.php:380 includes/visual-map.php:384
+#: includes/visual-map.php:554 includes/visual-map.php:558
+msgid "Layout"
+msgstr ""
+
+#: includes/visual-map.php:238
+msgid "Sw Vendor Slider Dokan Vendor"
+msgstr ""
+
+#: includes/visual-map.php:412
+msgid "Sw Vendor Slider WC MarketPlace"
+msgstr ""
+
+#: sw-vendor-slider.php:65
+msgid ""
+"Sw Vendor is enabled but not effective. It requires WooCommerce and WC Vendor "
+"in order to work."
+msgstr ""

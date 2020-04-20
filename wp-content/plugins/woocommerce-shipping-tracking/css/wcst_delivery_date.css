@@ -1,0 +1,19 @@
+.wcst_input_time, .wcst_input_date
+{
+	width:48%;
+}
+#wcst_order_details_form
+{
+	display:block;
+	margin-top:30px;
+	margin-bottom:50px;
+}
+.wcst_extra_delivery_section_title
+{
+	margin-bottom:5px; 
+	margin-top:25px;
+}
+.woocommerce-billing-fields__field-wrapper
+{
+	overflow:auto;
+}

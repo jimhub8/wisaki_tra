@@ -1,0 +1,1642 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Delivery Date\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2019-04-10 13:53:10+00:00\n"
+"PO-Revision-Date: 2019-04-10 15:54+0200\n"
+"Last-Translator: \n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;_ngettext_noop:1,2;"
+"_n_nooop:1,2;_c,_nc:4c,1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: class.yith-delivery-date.php:205
+#: templates/meta-boxes/carrier-meta-boxes-options.php:13
+#: templates/meta-boxes/processing-method-meta-boxes-options.php:20
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: class.yith-delivery-date.php:206
+msgid "Processing Options"
+msgstr "Impostazioni preparazione"
+
+#: class.yith-delivery-date.php:207
+msgid "Carrier Options"
+msgstr "Opzioni corriere"
+
+#: class.yith-delivery-date.php:208
+#: plugin-options/dynamic-delivery-message-options.php:8
+msgid "Dynamic Delivery Message"
+msgstr "Messaggio consegna dinamico"
+
+#: class.yith-delivery-date.php:209
+#: plugin-options/general-calendar-options.php:34
+msgid "Calendar"
+msgstr "Calendario"
+
+#: class.yith-delivery-date.php:210
+msgid "Email"
+msgstr "Email"
+
+#: class.yith-delivery-date.php:217
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:486
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:587
+#: templates/meta-boxes/order-delivery-details-meta-box.php:29
+#: templates/woocommerce/checkout/delivery-date-select-date.php:32
+#: templates/woocommerce/pdf/delivery-date-info.php:24
+msgid "Delivery Date"
+msgstr "Data di consegna"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:11
+msgid "Carrier "
+msgstr "Corriere "
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:13
+#: templates/admin/carrier-tab.php:19
+msgid "Carriers"
+msgstr "Corrieri"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:31
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:31
+#: includes/widgets/class.yith-delivery-date-dynamic-messages-widget.php:43
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:32
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:32
+msgid "Number of Workdays"
+msgstr "Numero di giorni lavorativi"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:33
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:33
+msgid "Workdays"
+msgstr "Giorni lavorativi "
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:34
+msgid "Maximum number of days to be selected"
+msgstr "Numero massimo di giorni che possono essere selezionati"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:35
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:34
+msgid "Author"
+msgstr "Autore"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:36
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:35
+msgid "Date"
+msgstr "Data "
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:78
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:77
+msgid "Restore this item from Trash"
+msgstr "Ripristina questo articolo dal Cestino"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:78
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:77
+msgid "Restore"
+msgstr "Ripristina"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:81
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:80
+msgid "Delete permanently"
+msgstr "Elimina definitivamente"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:83
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:88
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:82
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:87
+#: templates/admin/types/holidays.php:17 templates/admin/types/holidays.php:95
+msgid "Edit"
+msgstr "Modifica"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:84
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:252
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:83
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:245
+msgid "Trash"
+msgstr "Cestino"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:234
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:227
+#: templates/admin/quantity-range-field.php:89
+#: templates/admin/types/holidays.php:99
+#: templates/meta-boxes/carrier-time-slot-view.php:150
+msgid "Delete"
+msgstr "Elimina"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:235
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:228
+msgid "Move to Trash"
+msgstr "Sposta nel Cestino"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:249
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:242
+msgid "All"
+msgstr "Tutti"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:250
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:243
+msgid "Published"
+msgstr "Pubblicato"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:251
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:244
+msgid "Mine"
+msgstr "Miei"
+
+#: includes/admin-tables/class.yith-delivery-date-carrier-table.php:253
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:246
+msgid "Draft"
+msgstr "Bozza"
+
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:11
+#: includes/post-type/class.yith-delivery-date-processing-method.php:121
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:173
+#: templates/admin/types/holidays.php:123
+msgid "Processing Method"
+msgstr "Metodo di preparazione"
+
+#: includes/admin-tables/class.yith-delivery-date-processing-method-table.php:13
+#: templates/admin/processing-method-tab.php:48
+msgid "Processing Methods"
+msgstr "Metodi di preparazione"
+
+#: includes/class.yith-delivery-date-admin.php:138
+#: includes/post-type/class.yith-delivery-date-carrier.php:241
+msgid "No item found."
+msgstr "Nessun articolo trovato."
+
+#: includes/class.yith-delivery-date-admin.php:647
+msgid ""
+"In order to use the plugin, it is essential to create at least a Processing "
+"Method"
+msgstr ""
+"Per utilizzare il plugin è necessario creare almeno un metodo di preparazione"
+
+#: includes/class.yith-delivery-date-admin.php:648
+#: includes/post-type/class.yith-delivery-date-processing-method.php:125
+#: includes/post-type/class.yith-delivery-date-processing-method.php:126
+msgid "Add new Processing Method"
+msgstr "Aggiungi nuovo metodo di elaborazione"
+
+#: includes/class.yith-delivery-date-calendar.php:247
+#: templates/admin/types/holidays.php:14 templates/admin/types/holidays.php:119
+msgid "Holiday for"
+msgstr "Festività per"
+
+#: includes/class.yith-delivery-date-calendar.php:257
+#: includes/class.yith-delivery-date-calendar.php:269
+msgid "Order"
+msgstr "Ordine"
+
+#: includes/class.yith-delivery-date-calendar.php:258
+msgid "Shipping day for"
+msgstr "Giorno di spedizione per"
+
+#: includes/class.yith-delivery-date-calendar.php:270
+msgid "Delivery day for"
+msgstr "Giorno di consegna per "
+
+#: includes/class.yith-delivery-date-calendar.php:326
+msgid "Carrier Default"
+msgstr "Corriere predefinito"
+
+#: includes/class.yith-delivery-date-order-manager.php:48
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:575
+msgid "Delivery Details"
+msgstr "Dettagli consegna"
+
+#: includes/class.yith-delivery-date-order-manager.php:99
+msgid "Shipping date"
+msgstr "Data di spedizione"
+
+#: includes/class.yith-delivery-date-order-manager.php:100
+msgid "Delivery date"
+msgstr "Data di consegna"
+
+#: includes/class.yith-delivery-date-order-manager.php:128
+msgid "No shipping date"
+msgstr "Nessuna data di spedizione"
+
+#: includes/class.yith-delivery-date-order-manager.php:143
+msgid "No delivery date"
+msgstr "Nessuna data di consegna"
+
+#: includes/class.yith-delivery-date-privacy.php:33
+msgid ""
+"We collect information about you during the registration and checkout "
+"process on our store."
+msgstr ""
+"Raccogliamo informazioni su di te durante la registrazione e il processo di "
+"pagamento sul nostro sito. "
+
+#: includes/class.yith-delivery-date-privacy.php:34
+msgid "While you visit our site, we’ll track:"
+msgstr "Mentre visiti il nostro sito, seguiremo:"
+
+#: includes/class.yith-delivery-date-privacy.php:36
+msgid ""
+"Delivery information: we will use these data to save delivery information "
+"that allows customers to select a delivery date during the checkout process."
+msgstr ""
+"Informazioni consegna: useremo questi dati per salvare le informazioni di "
+"consegna che permettono ai clienti di selezionare una data di consegna "
+"durante la fase di acquisto. "
+
+#: includes/class.yith-delivery-date-privacy.php:37
+msgid ""
+"The information required, carrier identifier, date and time slot are stored "
+"in the Order, so this field is subject to WooCommerce policy."
+msgstr ""
+"Le informazioni obbligatorie, l'identificatore del corriere, la data e la "
+"fascia oraria sono salvati nell'ordine pertanto questo campo è soggetto alla "
+"normativa di WooCommerce. "
+
+#: includes/class.yith-delivery-date-privacy.php:38
+msgid ""
+"The plugin can also send an email when the order has been shipped by the "
+"admin."
+msgstr ""
+"Il plugin può anche inviare un'email quando l'ordine è stato spedito "
+"dall'amministratore. "
+
+#: includes/class.yith-delivery-date-privacy.php:43
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Shop Managers can access:"
+msgstr ""
+"I membri del nostro team hanno accesso alle informazioni che ci fornisci. Ad "
+"esempio, sia amministratori che shop manager possono accedere:"
+
+#: includes/class.yith-delivery-date-privacy.php:45
+msgid "All delivery information"
+msgstr "Tutte le informazioni di consegna"
+
+#: includes/class.yith-delivery-date-privacy.php:47
+msgid ""
+"Our team members have access to this information to help fulfill orders, "
+"process orders and support you."
+msgstr ""
+"I membri del nostro team hanno accesso a queste informazioni per il "
+"completamento e l'elaborazione degli ordini e per offrirti supporto. "
+
+#: includes/class.yith-delivery-date-product.php:110
+msgctxt "[Part of]: 4 hours and 50 minutes"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "ora"
+msgstr[1] "ore"
+
+#: includes/class.yith-delivery-date-product.php:111
+msgctxt "[Part of]: 4 hours and 50 minutes"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "minuto"
+msgstr[1] "minuti"
+
+#: includes/class.yith-delivery-date-product.php:113
+msgctxt "[Part of]: 4 hours and 50 minutes"
+msgid "and"
+msgstr "e "
+
+#: includes/emails/class.yith-delivery-date-advise-customer-email.php:20
+#: templates/meta-boxes/order-delivery-details-meta-box.php:88
+#: templates/meta-boxes/order-delivery-details-meta-box.php:103
+msgid "Shipped to carrier"
+msgstr "Spedito al corriere"
+
+#: includes/emails/class.yith-delivery-date-advise-customer-email.php:21
+msgid ""
+"This email is sent to user when administrator has processed and sent the "
+"order to the carrier"
+msgstr ""
+"Questa email viene inviata all'utente quando l'amministratore ha elaborato e "
+"inviato l'ordine al corriere"
+
+#: includes/emails/class.yith-delivery-date-advise-customer-email.php:221
+msgid "HTML template"
+msgstr "Template HTML"
+
+#: includes/emails/class.yith-delivery-date-advise-customer-email.php:222
+msgid "Plain text template"
+msgstr "Template solo testo"
+
+#: includes/emails/class.yith-delivery-date-advise-customer-email.php:249
+msgid "Delete template file"
+msgstr "Elimina file template"
+
+#: includes/emails/class.yith-delivery-date-advise-customer-email.php:252
+msgid ""
+"This template has been overridden by your theme and can be found in: <code>"
+"%s</code>."
+msgstr ""
+"Questo template è stato sovrascritto dal tuo tema e puoi trovarlo in: <code>"
+"%s</code>."
+
+#: includes/emails/class.yith-delivery-date-advise-customer-email.php:270
+msgid "Copy file to theme"
+msgstr "Copia il file nel tema"
+
+#: includes/emails/class.yith-delivery-date-advise-customer-email.php:273
+msgid ""
+"To override and edit this email template, copy <code>%s</code> to your theme "
+"folder: <code>%s</code>."
+msgstr ""
+"Per sovrascrivere e modificare il template di questa email copia <code>%s</"
+"code> nella cartella del tuo tema: <code>%s</code>. "
+
+#: includes/emails/class.yith-delivery-date-advise-customer-email.php:284
+msgid "File not found."
+msgstr "File non trovato. "
+
+#: includes/emails/class.yith-delivery-date-advise-customer-email.php:311
+msgid "View template"
+msgstr "Visualizza template"
+
+#: includes/emails/class.yith-delivery-date-advise-customer-email.php:312
+msgid "Hide template"
+msgstr "Nascondi template"
+
+#: includes/emails/class.yith-delivery-date-advise-customer-email.php:323
+msgid "Are you sure you want to delete this template file?"
+msgstr "Sie sicuro di voler eliminare questo file template?"
+
+#: includes/functions.yith-delivery-date.php:16
+msgid "Sunday"
+msgstr "Domenica"
+
+#: includes/functions.yith-delivery-date.php:17
+msgid "Monday"
+msgstr "Lunedì"
+
+#: includes/functions.yith-delivery-date.php:18
+msgid "Tuesday"
+msgstr "Martedì"
+
+#: includes/functions.yith-delivery-date.php:19
+msgid "Wednesday"
+msgstr "Mercoledì"
+
+#: includes/functions.yith-delivery-date.php:20
+msgid "Thursday"
+msgstr "Giovedì"
+
+#: includes/functions.yith-delivery-date.php:21
+msgid "Friday"
+msgstr "Venerdì"
+
+#: includes/functions.yith-delivery-date.php:22
+msgid "Saturday"
+msgstr "Sabato"
+
+#: includes/functions.yith-delivery-date.php:51
+msgctxt "month"
+msgid "January"
+msgstr "Gennaio"
+
+#: includes/functions.yith-delivery-date.php:52
+msgctxt "month"
+msgid "February"
+msgstr "Febbraio"
+
+#: includes/functions.yith-delivery-date.php:53
+msgctxt "month"
+msgid "March"
+msgstr "Marzo"
+
+#: includes/functions.yith-delivery-date.php:54
+msgctxt "month"
+msgid "April"
+msgstr "Aprile"
+
+#: includes/functions.yith-delivery-date.php:55
+msgctxt "month"
+msgid "May"
+msgstr "Maggio"
+
+#: includes/functions.yith-delivery-date.php:56
+msgctxt "month"
+msgid "June"
+msgstr "Giugno"
+
+#: includes/functions.yith-delivery-date.php:57
+msgctxt "month"
+msgid "July"
+msgstr "Luglio"
+
+#: includes/functions.yith-delivery-date.php:58
+msgctxt "month"
+msgid "August "
+msgstr "Agosto"
+
+#: includes/functions.yith-delivery-date.php:59
+#: includes/functions.yith-delivery-date.php:60
+msgctxt "month"
+msgid "September "
+msgstr "Settembre"
+
+#: includes/functions.yith-delivery-date.php:61
+msgctxt "month"
+msgid "October "
+msgstr "Ottobre"
+
+#: includes/functions.yith-delivery-date.php:62
+msgctxt "month"
+msgid "November "
+msgstr "Novembre"
+
+#: includes/functions.yith-delivery-date.php:63
+msgctxt "month"
+msgid "December "
+msgstr "Dicembre"
+
+#: includes/functions.yith-delivery-date.php:123
+msgid "Y/m/d"
+msgstr "A/m/g"
+
+#: includes/post-type/class.yith-delivery-date-carrier.php:118
+msgctxt "post type general name"
+msgid "Carrier"
+msgstr "Corriere"
+
+#: includes/post-type/class.yith-delivery-date-carrier.php:119
+msgctxt "post type singular name"
+msgid "Carrier"
+msgstr "Corriere"
+
+#: includes/post-type/class.yith-delivery-date-carrier.php:120
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:482
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:579
+#: templates/admin/types/holidays.php:55 templates/admin/types/holidays.php:128
+#: templates/meta-boxes/order-delivery-details-meta-box.php:21
+#: templates/woocommerce/checkout/delivery-date-select-date.php:9
+#: templates/woocommerce/pdf/delivery-date-info.php:15
+msgid "Carrier"
+msgstr "Corriere"
+
+#: includes/post-type/class.yith-delivery-date-carrier.php:121
+#: includes/post-type/class.yith-delivery-date-processing-method.php:122
+msgid "Parent Item:"
+msgstr "Elemento genitore:"
+
+#: includes/post-type/class.yith-delivery-date-carrier.php:122
+msgid "All carriers"
+msgstr "Tutti i corrieri"
+
+#: includes/post-type/class.yith-delivery-date-carrier.php:123
+msgid "View carrier"
+msgstr "Visualizza corriere"
+
+#: includes/post-type/class.yith-delivery-date-carrier.php:124
+#: includes/post-type/class.yith-delivery-date-carrier.php:125
+msgid "Add new carrier"
+msgstr "Aggiungi nuovo corriere"
+
+#: includes/post-type/class.yith-delivery-date-carrier.php:126
+msgid "Edit carrier"
+msgstr "Modifica corriere"
+
+#: includes/post-type/class.yith-delivery-date-carrier.php:127
+msgid "Update carrier"
+msgstr "Aggiorna corriere"
+
+#: includes/post-type/class.yith-delivery-date-carrier.php:128
+msgid "Search carrier"
+msgstr "Cerca corriere"
+
+#: includes/post-type/class.yith-delivery-date-carrier.php:129
+msgid "No carrier found"
+msgstr "Nessun corriere trovato"
+
+#: includes/post-type/class.yith-delivery-date-carrier.php:130
+msgid "No carrier found in Trash"
+msgstr "Nessun corriere trovato nel cestino"
+
+#: includes/post-type/class.yith-delivery-date-carrier.php:541
+msgid "Back to Carriers"
+msgstr "Torna ai corrieri"
+
+#: includes/post-type/class.yith-delivery-date-processing-method.php:119
+msgctxt "post type general name"
+msgid "Processing Method"
+msgstr "Metodo di preparazione"
+
+#: includes/post-type/class.yith-delivery-date-processing-method.php:120
+msgctxt "post type singular name"
+msgid "Processing Method"
+msgstr "Metodo di preparazione"
+
+#: includes/post-type/class.yith-delivery-date-processing-method.php:123
+msgid "All methods"
+msgstr "Tutti i metodi"
+
+#: includes/post-type/class.yith-delivery-date-processing-method.php:124
+msgid "View method"
+msgstr "Visualizza metodo"
+
+#: includes/post-type/class.yith-delivery-date-processing-method.php:127
+msgid "Edit Processing Method"
+msgstr "Modifica metodo di preparazione"
+
+#: includes/post-type/class.yith-delivery-date-processing-method.php:128
+msgid "Update Processing Method"
+msgstr "Aggiorna metodo di preparazione"
+
+#: includes/post-type/class.yith-delivery-date-processing-method.php:129
+msgid "Search Processing Method"
+msgstr "Cerca metodo di preparazione"
+
+#: includes/post-type/class.yith-delivery-date-processing-method.php:130
+msgid "No method found"
+msgstr "Nessun metodo trovato"
+
+#: includes/post-type/class.yith-delivery-date-processing-method.php:131
+msgid "No method found in Trash"
+msgstr "Nessun metodo trovato nel cestino"
+
+#: includes/post-type/class.yith-delivery-date-processing-method.php:346
+msgid "Back to Processing Methods"
+msgstr "Torna ai metodi di preparazione"
+
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:165
+msgid "Select a processing method"
+msgstr "Seleziona un metodo di preparazione"
+
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:181
+msgid "Set as required"
+msgstr "Imposta come obbligatorio"
+
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:185
+msgid "If enabled, customers must select a date for the delivery"
+msgstr "Se attivata, i clienti devono selezionare una data per la consegna "
+
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:383
+msgid "Your order will be delivered on"
+msgstr "Il tuo ordine verrà consegnato il "
+
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:383
+msgid "Edit date"
+msgstr "Modifica data"
+
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:437
+#: templates/meta-boxes/carrier-time-slot-view.php:13
+#: templates/meta-boxes/types/addtimeslot.php:8
+msgid "Fee"
+msgstr "Tariffa"
+
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:438
+msgctxt "from time"
+msgid "From"
+msgstr "Dalle "
+
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:438
+msgctxt "to time"
+msgid "To"
+msgstr "Alle"
+
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:482
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:486
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:492
+msgid "is a required field."
+msgstr "è un campo obbligatorio."
+
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:492
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:591
+#: templates/meta-boxes/carrier-time-slot-meta-boxes-options.php:13
+#: templates/meta-boxes/order-delivery-details-meta-box.php:33
+#: templates/woocommerce/checkout/delivery-date-select-timeslot.php:13
+msgid "Time Slot"
+msgstr "Fascia oraria"
+
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:583
+#: templates/woocommerce/pdf/delivery-date-info.php:20
+msgctxt "[Part of]: Shipping Date within 20th March 2019"
+msgid "Shipping Date"
+msgstr "Data di spedizione "
+
+#: includes/shipping/class.yith-delivery-date-shipping-manager.php:584
+#: templates/woocommerce/pdf/delivery-date-info.php:21
+msgctxt "[Part of]: Shipping Date within 20th March 2019"
+msgid "within"
+msgstr "entro "
+
+#: includes/widgets/class.yith-delivery-date-dynamic-messages-widget.php:12
+msgid "YITH Delivery Dynamic Messages"
+msgstr "YITH Delivery Dynamic Messages"
+
+#: includes/widgets/class.yith-delivery-date-dynamic-messages-widget.php:13
+msgid ""
+"Show dynamic messages about delivery. Please note - this widget works only "
+"on the single product sidebar"
+msgstr ""
+"Mostra messaggi dinamici inerenti la consegna. Attenzione - questo widget "
+"funziona solo nella barra laterale del singolo prodotto"
+
+#: includes/widgets/class.yith-delivery-date-dynamic-messages-widget.php:46
+msgid "Insert a title"
+msgstr "Inserisci un titolo"
+
+#: init.php:39
+msgid ""
+"YITH WooCommerce Delivery Date Premium is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Delivery Date Premium è attivo ma non operativo. Il suo "
+"funzionamento richiede WooCommerce."
+
+#: plugin-options/dynamic-delivery-message-options.php:13
+msgid "Enable prompt delivery to carrier"
+msgstr "Attiva la pronta consegna per il corriere"
+
+#: plugin-options/dynamic-delivery-message-options.php:16
+msgid ""
+"Enable this option if you want to show the date when the product is usually "
+"shipped to carrier"
+msgstr ""
+"Attiva questa opzione se vuoi mostrare la data in cui di solito il prodotto "
+"è preso in carico dal corriere"
+
+#: plugin-options/dynamic-delivery-message-options.php:21
+msgid "Prompt delivery to carrier"
+msgstr "Pronta consegna per il corriere"
+
+#: plugin-options/dynamic-delivery-message-options.php:24
+msgid ""
+"Insert the text to show. E.g. This product will be ready and picked up by "
+"carrier within March 20th, 2019 . Use the placeholder {shipping_date} to "
+"show the date"
+msgstr ""
+"Inserisci il testo da mostrare. Es: Questo prodotto sarà pronto e preso in "
+"carico dal corriere entro il 20 marzo 2019. Per mostrare la data usa il "
+"segnaposto {shipping_date}"
+
+#: plugin-options/dynamic-delivery-message-options.php:25
+msgid "This product will be picked up by carrier within {shipping_date}"
+msgstr ""
+"Questo prodotto sarà preso in carica dal corriere entro {shipping_date}"
+
+#: plugin-options/dynamic-delivery-message-options.php:34
+msgid "Enable delivery to customer"
+msgstr "Attiva la consegna al cliente"
+
+#: plugin-options/dynamic-delivery-message-options.php:37
+msgid "Enable this option if you want to show the delivery date"
+msgstr "Attiva questa opzione se vuoi mostrare la data di consegna"
+
+#: plugin-options/dynamic-delivery-message-options.php:42
+msgid "Delivery to customer"
+msgstr "Consegna per il cliente"
+
+#: plugin-options/dynamic-delivery-message-options.php:45
+msgid ""
+"Insert the text to show. E.g. This product will be shipped on March 20th, "
+"2019 . Use the placeholder {delivery_date} to show the date . Use "
+"{time_limit} to show the time limit."
+msgstr ""
+"Inserisci il testo da mostrare. Es: Questo prodotto verrà spedito il 20 "
+"marzo 2019. Per mostrare la data usa il segnaposto {shipping_date}. Per "
+"mostrare il limite temporale usa {time_limit}."
+
+#: plugin-options/dynamic-delivery-message-options.php:46
+msgid ""
+"Place your order by {time_limit} to receive the product within "
+"{delivery_date}"
+msgstr ""
+"Per ricevere il prodotto entro {delivery_date} effettua il tuo ordine entro "
+"{time_limit} "
+
+#: plugin-options/dynamic-delivery-message-options.php:55
+msgid "Alternative delivery text to customer"
+msgstr "Testo alternativo per la consegna al cliente"
+
+#: plugin-options/dynamic-delivery-message-options.php:58
+msgid ""
+"If it is not possible to calculate the time limit, insert an alternative "
+"text.  E.g. This product will be delivered on March 20th, 2019 . Use the "
+"placeholder {delivery_date} to show the date"
+msgstr ""
+"Se non è possibile calcolare il limite temporale, inserisci un testo "
+"alternativo. Es: Questo prodotto sarà consegnato il 20 marzo 2019. Per "
+"mostrare la data usa il segnaposto {delivery_date} "
+
+#: plugin-options/dynamic-delivery-message-options.php:68
+msgid "Position for the delivery message"
+msgstr "Posizione del messaggio della consegna"
+
+#: plugin-options/dynamic-delivery-message-options.php:71
+msgid "Choose where you want to show the messages"
+msgstr "Scegli dove vuoi mostrare i messaggi"
+
+#: plugin-options/dynamic-delivery-message-options.php:74
+msgid "After Price"
+msgstr "Dopo il prezzo"
+
+#: plugin-options/dynamic-delivery-message-options.php:75
+msgid "Before Add to cart button"
+msgstr "Prima del pulsante Aggiungi al Carrello"
+
+#: plugin-options/dynamic-delivery-message-options.php:76
+msgid "After Add to cart button"
+msgstr "Dopo il pulsante Aggiungi al carrello"
+
+#: plugin-options/dynamic-delivery-message-options.php:77
+msgid "With Widget or Shortcode"
+msgstr "Tramite Widget o Shortcode"
+
+#: plugin-options/dynamic-delivery-message-options.php:87
+msgid "Dynamic Delivery Message Customization"
+msgstr "Personalizzazione del messaggio consegna dinamico"
+
+#: plugin-options/dynamic-delivery-message-options.php:91
+msgid "Prompt delivery to carrier background"
+msgstr "Sfondo per pronta consegna al corriere"
+
+#: plugin-options/dynamic-delivery-message-options.php:93
+msgid "Set a background color for prompt delivery to carrier message"
+msgstr "Imposta uno sfondo per il messaggio di pronta consegna al corriere"
+
+#: plugin-options/dynamic-delivery-message-options.php:98
+msgid "Delivery to customer background"
+msgstr "Sfondo per la consegna al cliente"
+
+#: plugin-options/dynamic-delivery-message-options.php:100
+msgid "Set a background color for delivery to customer message"
+msgstr "Imposta un colore per lo sfondo del messaggio di consegna al cliente"
+
+#: plugin-options/email-settings-options.php:5
+msgid "Your order has been shipped!"
+msgstr "Il tuo ordine è stato spedito!"
+
+#: plugin-options/email-settings-options.php:7
+msgid "Dear"
+msgstr "Caro"
+
+#: plugin-options/email-settings-options.php:8
+msgid "the order"
+msgstr "l'ordine "
+
+#: plugin-options/email-settings-options.php:9
+msgid "has been shipped to carrier"
+msgstr "è stato preso in carico dal corriere"
+
+#: plugin-options/email-settings-options.php:10
+msgid "You should receive your order within"
+msgstr "Dovresti ricevere il tuo ordine entro"
+
+#: plugin-options/email-settings-options.php:11
+msgid "Best regards"
+msgstr "Distinti saluti"
+
+#: plugin-options/email-settings-options.php:15
+msgid "You can use the following placeholders"
+msgstr "Puoi utilizzare i segnaposto seguenti"
+
+#: plugin-options/email-settings-options.php:16
+msgid "{site_title} replaced by website title"
+msgstr "{site_title} sostituito con il titolo del sito web"
+
+#: plugin-options/email-settings-options.php:17
+msgid "{order_url} replaced by order link"
+msgstr "{order_url} sostituito con il link dell'ordine "
+
+#: plugin-options/email-settings-options.php:18
+msgid "{order_id} replaced by order ID"
+msgstr "{order_id} sostituito con l'ID dell'ordine "
+
+#: plugin-options/email-settings-options.php:19
+msgid "{order_content} replaced by order content"
+msgstr "{order_content} sostituito con il contenuto dell'ordine "
+
+#: plugin-options/email-settings-options.php:20
+msgid "{customer_email} replaced by customer's email address"
+msgstr "{customer_email} sostituito con l'indirizzo email del cliente"
+
+#: plugin-options/email-settings-options.php:21
+msgid "{customer_name} replaced by customer's name"
+msgstr "{customer_name} sostituito con il nome del cliente"
+
+#: plugin-options/email-settings-options.php:22
+msgid "{delivery_date} replaced by delivery date"
+msgstr "{delivery_date} sostituito con la data di consegna"
+
+#: plugin-options/email-settings-options.php:32
+#: plugin-options/privacy-settings-options.php:11
+msgid "Privacy Settings"
+msgstr "Impostazioni per la privacy"
+
+#: plugin-options/email-settings-options.php:37
+#: plugin-options/privacy-settings-options.php:16
+msgid "GDPR compliance"
+msgstr "Conformità GDPR"
+
+#: plugin-options/email-settings-options.php:41
+#: plugin-options/privacy-settings-options.php:20
+msgid ""
+"If checked, you will allow customers to choose whether they want to receive "
+"an email for the concerned order"
+msgstr ""
+"Se attivata, permetterà ai clienti di scegliere se vogliono ricevere "
+"un'email per il relativo ordine "
+
+#: plugin-options/email-settings-options.php:46
+#: plugin-options/privacy-settings-options.php:25
+msgid "Description"
+msgstr "Descrizione"
+
+#: plugin-options/email-settings-options.php:50
+#: plugin-options/privacy-settings-options.php:29
+msgid "This description will be displayed next to the checkbox"
+msgstr "Questa descrizione sarà mostrata accanto alla casella di spunta"
+
+#: plugin-options/email-settings-options.php:56
+#: plugin-options/privacy-settings-options.php:35
+msgid "Yes, I want to receive emails when my order is shipped"
+msgstr "Sì, voglio ricevere email quando il mio ordine è spedito"
+
+#: plugin-options/email-settings-options.php:63
+msgid "Shipped to carrier - email settings"
+msgstr "Spedito al corriere - impostazioni email"
+
+#: plugin-options/email-settings-options.php:68
+msgid "Enable/Disable"
+msgstr "Attiva/Disattiva"
+
+#: plugin-options/email-settings-options.php:76
+msgid "Email type"
+msgstr "Tipologia email"
+
+#: plugin-options/email-settings-options.php:80
+msgid "HTML"
+msgstr "HTML"
+
+#: plugin-options/email-settings-options.php:81
+msgid "Plain text"
+msgstr "Solo testo"
+
+#: plugin-options/email-settings-options.php:95
+msgid "Email subject"
+msgstr "Oggetto email"
+
+#: plugin-options/email-settings-options.php:110
+msgid "Email sender"
+msgstr "Mittente email"
+
+#: plugin-options/email-settings-options.php:124
+msgid "Email content"
+msgstr "Contenuto email"
+
+#: plugin-options/general-calendar-options.php:23
+msgid "Holidays"
+msgstr "Festività"
+
+#: plugin-options/general-calendar-options.php:44
+msgid "Calendar Customization"
+msgstr "Personalizzazione del calendario"
+
+#: plugin-options/general-calendar-options.php:48
+msgid "Shipping Event Color"
+msgstr "Colore dell'evento spedizione"
+
+#: plugin-options/general-calendar-options.php:54
+msgid "Delivery Event Color"
+msgstr "Colore dell'evento consegna"
+
+#: plugin-options/general-calendar-options.php:60
+msgid "Holiday Event Color"
+msgstr "Colore dell'evento festività"
+
+#: plugin-options/general-settings-options.php:19
+msgid "Delivery Settings"
+msgstr "Impostazioni consegna"
+
+#: plugin-options/general-settings-options.php:23
+msgid "Show DatePicker"
+msgstr "Mostra datepicker"
+
+#: plugin-options/general-settings-options.php:26
+msgid "If checked, the datepicker is always shown on frontend"
+msgstr "Se attivata, il datepicker è mostrato sempre a frontend"
+
+#: plugin-options/general-settings-options.php:31
+msgid "Date Format"
+msgstr "Formato data"
+
+#: plugin-options/general-settings-options.php:32
+msgid "Select a date format for your datepicker"
+msgstr "Seleziona il formato della data per il tuo datepicker"
+
+#: plugin-options/general-settings-options.php:39
+msgid "Time increments (minutes)"
+msgstr "Incrementi di tempo (minuti)"
+
+#: plugin-options/general-settings-options.php:42
+msgid ""
+"Set how users will choose the delivery time: let them choose any type of "
+"increments, from 1 minute to 1 hour. Example: If you set 30 minutes, you can "
+"create time slots from 12:00 to 12:30, etc."
+msgstr ""
+"Scegli il modo in cui gli utenti selezionano l'ora di consegna: lascia che "
+"scelgano qualsiasi tipo di incremento da 1 minuto a 1 ora. Es: se imposti 30 "
+"minuti puoi creare fasce orarie dalle 12:00 alle 12:30, ecc. "
+
+#: plugin-options/general-settings-options.php:51
+msgid "Time Slot Fee Settings"
+msgstr "Impostazioni tariffa fascia oraria "
+
+#: plugin-options/general-settings-options.php:62
+msgid "Fee Taxable"
+msgstr "Tariffa tassabile"
+
+#: plugin-options/general-settings-options.php:63
+msgid ""
+"Enable this option to set the fee to taxable. N.B. the time slot fees are "
+"always tax excluded, so if you set a $20 fee as taxable, the final value "
+"will be $20+tax"
+msgstr ""
+"Attiva questa opzione per impostare la tariffa come tassabile. NB Le tariffe "
+"delle fasce orarie sono sempre tasse escluse, pertanto se imposti una "
+"tariffa di $20, il valore finale sarà $20 + tasse. "
+
+#: plugin-options/general-settings-options.php:70
+msgid "Tax Class"
+msgstr " Classe fiscale"
+
+#: plugin-options/general-settings-options.php:71
+msgid "Select the tax that you want to apply to time slot fees"
+msgstr "Seleziona la tassa che vuoi applicare alle fasce orarie"
+
+#: plugin-options/general-settings-options.php:89
+msgid "Event Calendar settings"
+msgstr "Impostazioni evento calendario"
+
+#: plugin-options/general-settings-options.php:94
+msgid "Order status"
+msgstr "Stato dell'ordine"
+
+#: plugin-options/general-settings-options.php:95
+msgid ""
+"Add events to the calendar when the order is marked with one or more of the "
+"following statuses"
+msgstr ""
+"Aggiungi eventi al calendario quando l'ordine è contrassegnato con uno o più "
+"dei seguenti stati"
+
+#: templates/admin/add-new-custom-processing-day.php:12
+msgid "Search for a category&hellip;"
+msgstr "Cerca una categoria&hellip;"
+
+#: templates/admin/add-new-custom-processing-day.php:23
+msgid "Search for a product&hellip;"
+msgstr "Cerca un prodotto&hellip;"
+
+#: templates/admin/add-new-custom-processing-day.php:31
+#: templates/admin/types/holidays.php:16 templates/admin/types/holidays.php:143
+msgid "To"
+msgstr "Alle"
+
+#: templates/admin/add-new-custom-processing-day.php:33
+msgid "set"
+msgstr "imposta"
+
+#: templates/admin/add-new-custom-processing-day.php:35
+msgid "days"
+msgstr "giorni"
+
+#: templates/admin/add-new-custom-processing-day.php:45
+#: templates/admin/add-new-custom-processing-day.php:63
+msgid "Add new"
+msgstr "Aggiungi nuovo"
+
+#: templates/admin/processing-method-tab.php:27
+msgid "Processing type"
+msgstr "Tipo di preparazione"
+
+#: templates/admin/processing-method-tab.php:32
+msgid "Checkout"
+msgstr "Checkout"
+
+#: templates/admin/processing-method-tab.php:35
+msgid "Product"
+msgstr "Prodotto"
+
+#: templates/admin/processing-method-tab.php:38
+msgid ""
+"Checkout: allow you to set delivery dates for the whole orders in processing "
+"methods. Product: allows you to set custom delivery dates for different "
+"products and will enable a table in product page"
+msgstr ""
+"Checkout: ti permette di impostare date di consegna per l'intero ordine nei "
+"metodi di preparazione. Prodotto: ti permette di impostare date di consegna "
+"personalizzate per prodotti diversi e di attivare una tabella nella pagina "
+"prodotto"
+
+#: templates/admin/processing-method-tab.php:62
+msgid "Custom Processing Day"
+msgstr "Giorno di preparazione personalizzato"
+
+#: templates/admin/processing-method-tab.php:64
+msgid "Processing days for products"
+msgstr "Giorni di preparazione per i prodotti"
+
+#: templates/admin/processing-method-tab.php:73
+msgid "Processing days for categories"
+msgstr "Giorni di preparazione per le categorie"
+
+#: templates/admin/quantity-range-field.php:14
+msgctxt "Part of]: For quantity from 50 to 100 set 5 days"
+msgid "For quantity from"
+msgstr "Per quantità da"
+
+#: templates/admin/quantity-range-field.php:15
+msgctxt "[Part of]: For quantity from 50 to 100 set 5 days"
+msgid "to"
+msgstr "a"
+
+#: templates/admin/quantity-range-field.php:16
+msgctxt "[Part of]: For quantity from 50 to 100 set 5 days"
+msgid "set"
+msgstr "imposta"
+
+#: templates/admin/quantity-range-field.php:17
+msgctxt "[Part of]: For quantity from 50 to 100 set 5 days"
+msgid "days"
+msgstr "giorni"
+
+#: templates/admin/quantity-range-field.php:18
+msgid "Remove range"
+msgstr "Rimuovi intervallo"
+
+#: templates/admin/quantity-range-field.php:76
+msgid ""
+"Set custom processing days depending on the number of products ordered by "
+"the user. <br/>Leave \"to\" value empty if you want to set a single "
+"processing time without changes when increasing the quantity."
+msgstr ""
+"Imposta dei giorni di preparazione personalizzati in base al numero di "
+"prodotti ordinati dall'utente.  <br/>Lascia vuoto il valore \"a\" per "
+"impostare un unico tempo di preparazione senza cambiamenti quando si aumenta "
+"la quantità."
+
+#: templates/admin/quantity-range-field.php:81
+msgid "+ Add quantity range"
+msgstr "+ Aggiungi intervallo quantità"
+
+#: templates/admin/quantity-range-field.php:87
+#: templates/meta-boxes/carrier-time-slot-view.php:148
+#: templates/meta-boxes/types/addtimeslot.php:75
+msgid "Save"
+msgstr "Salva"
+
+#: templates/admin/types/holidays.php:12
+msgid "Status"
+msgstr "Stato"
+
+#: templates/admin/types/holidays.php:13 templates/admin/types/holidays.php:114
+msgid "Holiday Name"
+msgstr "Nome festività"
+
+#: templates/admin/types/holidays.php:15 templates/admin/types/holidays.php:138
+msgid "From"
+msgstr "Dalle"
+
+#: templates/admin/types/holidays.php:50
+msgid "Order Processing Method"
+msgstr "Metodo di elaborazione dell'ordine"
+
+#: templates/admin/types/holidays.php:91
+msgid "Update"
+msgstr "Aggiorna "
+
+#: templates/admin/types/holidays.php:111
+msgid "+ Add a new holiday"
+msgstr "+Aggiungi nuova festività "
+
+#: templates/admin/types/holidays.php:149
+msgid "Add"
+msgstr "Aggiungi"
+
+#: templates/meta-boxes/carrier-meta-boxes-options.php:7
+msgid "Carrier settings"
+msgstr "Impostazioni corriere"
+
+#: templates/meta-boxes/carrier-meta-boxes-options.php:16
+msgid "Estimated Delivery Day"
+msgstr "Giorno di consegna stimato"
+
+#: templates/meta-boxes/carrier-meta-boxes-options.php:17
+msgid ""
+"Set the number of days essential to your carrier to deliver the order (Set 0 "
+"as value if the delivery occurs within the day)"
+msgstr ""
+"Imposta il numero di giorni necessari al tuo corriere per consegnare "
+"l'ordine (Imposta il valore a 0 se la consegna avviene in giornata) "
+
+#: templates/meta-boxes/carrier-meta-boxes-options.php:23
+msgctxt "workdays"
+msgid "Workday"
+msgstr "Giorno lavorativo"
+
+#: templates/meta-boxes/carrier-meta-boxes-options.php:24
+msgid "Choose the carriers workdays"
+msgstr "Scegli i giorni lavorativi del corriere "
+
+#: templates/meta-boxes/carrier-meta-boxes-options.php:27
+msgid "Select a day"
+msgstr "Seleziona un giorno"
+
+#: templates/meta-boxes/carrier-meta-boxes-options.php:30
+msgctxt "days that can be selected starting from"
+msgid "Maximum number of days to select"
+msgstr "Numero massimo di giorni da selezionare"
+
+#: templates/meta-boxes/carrier-meta-boxes-options.php:31
+msgid ""
+"The maximum number of available days to show starting from the first valid "
+"delivery date."
+msgstr ""
+"Numero massimo di giorni da mostrare come disponibili a partire dalla prima "
+"data utile per la consegna"
+
+#: templates/meta-boxes/carrier-time-slot-meta-boxes-options.php:7
+msgid "Time Slots"
+msgstr "Fasce orarie"
+
+#: templates/meta-boxes/carrier-time-slot-meta-boxes-options.php:16
+msgid "Add time slot"
+msgstr "Aggiungi fascia oraria"
+
+#: templates/meta-boxes/carrier-time-slot-view.php:51
+#: templates/meta-boxes/types/addtimeslot.php:19
+msgid "Time slot name"
+msgstr "Nome fascia oraria"
+
+#: templates/meta-boxes/carrier-time-slot-view.php:60
+#: templates/meta-boxes/types/addtimeslot.php:27
+msgid "Time from"
+msgstr "Dalle ore"
+
+#: templates/meta-boxes/carrier-time-slot-view.php:64
+#: templates/meta-boxes/types/addtimeslot.php:31
+msgid "Time From"
+msgstr "Dalle ore"
+
+#: templates/meta-boxes/carrier-time-slot-view.php:70
+#: templates/meta-boxes/types/addtimeslot.php:36
+msgid "Time to"
+msgstr "Fino alle "
+
+#: templates/meta-boxes/carrier-time-slot-view.php:74
+#: templates/meta-boxes/types/addtimeslot.php:40
+msgid "Time To"
+msgstr "Fino alle "
+
+#: templates/meta-boxes/carrier-time-slot-view.php:81
+#: templates/meta-boxes/carrier-time-slot-view.php:85
+#: templates/meta-boxes/types/addtimeslot.php:45
+#: templates/meta-boxes/types/addtimeslot.php:49
+msgid "Lockout"
+msgstr "Blocca"
+
+#: templates/meta-boxes/carrier-time-slot-view.php:87
+#: templates/meta-boxes/types/addtimeslot.php:50
+msgid "Max number of orders accepted for this time slot"
+msgstr "Numero massimo di ordini accettati per questa fascia oraria"
+
+#: templates/meta-boxes/carrier-time-slot-view.php:93
+#: templates/meta-boxes/types/addtimeslot.php:57
+msgid "Fee Name"
+msgstr "Nome tariffa"
+
+#: templates/meta-boxes/carrier-time-slot-view.php:101
+#: templates/meta-boxes/types/addtimeslot.php:65
+msgid "Fee Price"
+msgstr "Tariffa"
+
+#: templates/meta-boxes/carrier-time-slot-view.php:108
+msgid ""
+"Set a fee for this time slot. If you don't need a fee, leave these fields "
+"empty."
+msgstr ""
+"Imposta una tariffa per questa fascia. Lascia i campi vuoti se non è "
+"prevista nessuna tariffa."
+
+#: templates/meta-boxes/carrier-time-slot-view.php:112
+msgid "Set Workdays"
+msgstr "Imposta giorni lavorativi"
+
+#: templates/meta-boxes/carrier-time-slot-view.php:127
+#: templates/meta-boxes/processing-method-meta-boxes-options.php:30
+msgid "Workday"
+msgstr "Giorno lavorativo"
+
+#: templates/meta-boxes/carrier-time-slot-view.php:141
+msgid ""
+"If enabled, this time slot will be available only for the follow selected "
+"workdays"
+msgstr ""
+"Se attivato, questa fascia oraria sarà disponibile solo per i giorni "
+"lavorativi selezionati"
+
+#: templates/meta-boxes/order-delivery-details-meta-box.php:25
+msgid "Shipping Date"
+msgstr "Data di spedizione"
+
+#: templates/meta-boxes/order-delivery-details-meta-box.php:49
+msgid ""
+"No email will be sent since customer denied the consent during the checkout"
+msgstr ""
+"Nessuna email verrà inviata poiché il cliente ha negato il consenso durante "
+"il checkout "
+
+#: templates/meta-boxes/order-delivery-details-meta-box.php:77
+msgid "Please, ship this order to the carrier within this date"
+msgstr "Per favore, spedisci questo ordine al corriere entro questa data"
+
+#: templates/meta-boxes/order-delivery-details-meta-box.php:81
+msgid "You haven't shipped the order in time!"
+msgstr "Non hai spedito l'ordine in tempo!"
+
+#: templates/meta-boxes/processing-method-meta-boxes-options.php:6
+msgid "Select a carrier for this processing method"
+msgstr "Seleziona un corriere per questo metodo di preparazione"
+
+#: templates/meta-boxes/processing-method-meta-boxes-options.php:11
+#: templates/meta-boxes/types/select_carrier.php:34
+msgid "or create one"
+msgstr "o creane uno"
+
+#: templates/meta-boxes/processing-method-meta-boxes-options.php:14
+msgid "Processing Method settings"
+msgstr "Impostazioni metodo di preparazione"
+
+#: templates/meta-boxes/processing-method-meta-boxes-options.php:23
+msgid "Required Workdays"
+msgstr "Giorni lavorativi richiesti"
+
+#: templates/meta-boxes/processing-method-meta-boxes-options.php:24
+msgid ""
+"Set the minimum number of days required to process an order ( Set 0 if you "
+"can ship the package within the day )"
+msgstr ""
+"Imposta il numero minimo di giorni richiesti per elaborare l'ordine (Imposta "
+"a 0 se puoi spedire il pacco in giornata)"
+
+#: templates/meta-boxes/processing-method-meta-boxes-options.php:31
+msgid "Select the days on which you process the orders"
+msgstr "Seleziona i giorni in cui elabori gli ordini"
+
+#: templates/meta-boxes/processing-method-meta-boxes-options.php:35
+#: templates/woocommerce/checkout/delivery-date-select-date.php:10
+msgid "Select Carrier"
+msgstr "Seleziona corriere"
+
+#: templates/meta-boxes/processing-method-meta-boxes-options.php:39
+msgid "Select carriers"
+msgstr "Seleziona corrieri"
+
+#: templates/meta-boxes/processing-method-meta-boxes-options.php:42
+msgid "Select Shipping Method"
+msgstr "Seleziona un metodo di spedizione "
+
+#: templates/meta-boxes/types/addtimeslot.php:13
+msgid "Add a time slot"
+msgstr "Aggiungi una fascia oraria"
+
+#: templates/meta-boxes/types/addtimeslot.php:16
+msgid "Add new time slot"
+msgstr "Aggiungi nuova fascia oraria"
+
+#: templates/meta-boxes/types/addtimeslot.php:71
+msgid ""
+"Add a fee for this time slot. If you don't need a fee, leave these fields "
+"empty."
+msgstr ""
+"Aggiungi una tariffa per questa fascia oraria slot. Lascia i campi vuoti se "
+"non è prevista nessuna tariffa."
+
+#: templates/meta-boxes/types/check_list_day.php:34
+msgid "All Days"
+msgstr "Tutti i giorni"
+
+#: templates/meta-boxes/types/check_list_day.php:48
+msgid "Time Limit"
+msgstr "Limite temporale"
+
+#: templates/meta-boxes/types/select-shipping-method.php:79
+#: templates/meta-boxes/types/select-shipping-method.php:84
+msgid "Shipping Method"
+msgstr "Metodo di spedizione"
+
+#: templates/meta-boxes/types/select-shipping-method.php:83
+msgid "Shipping Zone"
+msgstr "Zona di spedizione"
+
+#: templates/meta-boxes/types/select-shipping-method.php:85
+msgid "Required"
+msgstr "Obbligatorio"
+
+#: templates/meta-boxes/types/select-shipping-method.php:110
+msgid "This method is not set in any WooCommerce Shipping Method"
+msgstr ""
+"Questo metodo non è impostato in nessun metodo di spedizione di WooCommerce"
+
+#: templates/meta-boxes/types/select-shipping-method.php:123
+msgid "Manage Shipping Zones"
+msgstr "Gestisci zone di spedizione"
+
+#: templates/meta-boxes/types/select_carrier.php:23
+msgid "Select all"
+msgstr "Seleziona tutto"
+
+#: templates/meta-boxes/types/select_carrier.php:24
+msgid "Clear"
+msgstr "Cancella"
+
+#: templates/woocommerce/checkout/checkout-show-delivery-date-info.php:7
+msgid "Your order will be shipped to carrier on"
+msgstr "Il tuo ordine verrà preso in carica dal corriere il"
+
+#: templates/woocommerce/checkout/checkout-show-delivery-date-info.php:11
+msgid "You should receive the package on"
+msgstr "Dovresti ricevere il pacco il"
+
+#: templates/woocommerce/checkout/delivery-date-select-date.php:19
+msgid "Select a carrier"
+msgstr "Seleziona un corriere "
+
+#: templates/woocommerce/checkout/delivery-date-select-date.php:35
+msgid "Select a delivery date"
+msgstr "Seleziona una data di consegna"
+
+#: templates/woocommerce/checkout/delivery-date-select-timeslot.php:17
+msgid "Select time slot"
+msgstr "Seleziona fascia oraria"
+
+#: templates/woocommerce/pdf/delivery-date-info.php:12
+msgid "Delivery Notes"
+msgstr "Note per la consegna"
+
+#. Plugin Name of the plugin/theme
+msgid "YITH WooCommerce Delivery Date Premium"
+msgstr "YITH WooCommerce Delivery Date Premium"
+
+#. Plugin URI of the plugin/theme
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-delivery-date/"
+msgstr "https://yithemes.com/themes/plugins/yith-woocommerce-delivery-date/"
+
+#. Description of the plugin/theme
+msgid ""
+"With <code><strong>YITH WooCommerce Delivery Date Premium</strong></code> "
+"you will allow your customers to choose the delivery date for their orders "
+"by specifying time slots and possible carriers! <a href=\"https://yithemes."
+"com\">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>."
+msgstr ""
+"Con <code><strong>YITH WooCommerce Delivery Date Premium</strong></code> "
+"permetterai ai tuoi clienti di scegliere la data di consegna per i loro "
+"ordini con specifiche fasce orarie ed eventuali corrieri! <a href=\"https://"
+"yithemes.com\">Ottieni più plugin per il tuo e-commerce su <strong>YITH</"
+"strong></a>."
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#~ msgid "Days that can be selected from the first valid date for the delivery"
+#~ msgstr ""
+#~ "Giorni che possono essere selezionati dalla prima data valida per la "
+#~ "consegna  "
+
+#, fuzzy
+#~ msgid "Add New"
+#~ msgstr "Aggiungi nuovo"
+
+#~ msgid "Set as mandatory"
+#~ msgstr "Imposta come obbligatorio"
+
+#~ msgctxt "days that can be selected starting from"
+#~ msgid "Maximum days for selection"
+#~ msgstr "Massimo di giorni per la selezione"
+
+#~ msgctxt "form time"
+#~ msgid "From"
+#~ msgstr "Dalle"
+
+#~ msgid "Delivery"
+#~ msgstr "Consegna"
+
+#~ msgid "Delivery Time Slot"
+#~ msgstr "Fascia oraria della consegna"
+
+#~ msgid "Account & Privacy"
+#~ msgstr "Account & Privacy"
+
+#~ msgid "Lockout after"
+#~ msgstr "Blocca dopo"
+
+#~ msgid "Override workdays"
+#~ msgstr "Sovrascrivi giorni lavorativi"
+
+#~ msgid "Category"
+#~ msgstr "Categoria"
+
+#~ msgid "Override work days"
+#~ msgstr "Sovrascrivi giorni lavorativi"
+
+#~ msgid "Add new method"
+#~ msgstr "Aggiungi nuovo metodo"
+
+#~ msgid "These options are disabled since you enabled the carriers system"
+#~ msgstr ""
+#~ "Queste opzioni sono disattivate poiché hai attivato il sistema corrieri"
+
+#~ msgid "Go here to disable"
+#~ msgstr "Vai qui per disattivare"
+
+#~ msgid "Order Processing Method with ID %d not found"
+#~ msgstr "Metodo elaborazione dell'ordine con ID %d non trovato"
+
+#~ msgid "Carrier with ID %d not found"
+#~ msgstr "Corriere con ID %d non trovato"
+
+#~ msgctxt ""
+#~ "Next delivery date not processed because: Order Processing Method with ID "
+#~ "20 not found"
+#~ msgid "Next delivery date not processed because: "
+#~ msgstr "Prossima data di consegna non elaborata a causa di:"
+
+#~ msgctxt "post type general name"
+#~ msgid "Order Processing Method"
+#~ msgstr "Metodo di elaborazione dell'ordine"
+
+#~ msgctxt "post type singular name"
+#~ msgid "Order Processing Method"
+#~ msgstr "Metodo di elaborazione dell'ordine"
+
+#~ msgid "Shipping Day"
+#~ msgstr "Giorno di spedizione "
+
+#~ msgid "Set a label for your fees"
+#~ msgstr "Imposta un'etichetta per le tue tariffe"
+
+#~ msgid "Carrier system"
+#~ msgstr "Sistema corrieri"
+
+#~ msgid ""
+#~ "Enable the carriers system (N.B. by enabling this option, those already "
+#~ "set will be overriden)"
+#~ msgstr ""
+#~ "Attiva il sistema corrieri (N.B. attivando questa opzione quelli già "
+#~ "impostati verranno sovrascritti) "
+
+#~ msgid ""
+#~ "Set the  number of days essential for your carrier to deliver the order "
+#~ "(Set 0 as value if the delivery occurs within the day)"
+#~ msgstr ""
+#~ "Imposta il numero di giorni necessari al tuo corriere per consegnare "
+#~ "l'ordine (Imposta il valore a 0 se la consegna avviene in giornata)"
+
+#~ msgid "Select the days on which there are deliveries"
+#~ msgstr "Seleziona i giorni in cui ci sono consegne"
+
+#~ msgid "Select day"
+#~ msgstr "Seleziona giorno"
+
+#~ msgid "Add holiday to"
+#~ msgstr "Aggiungi festa a"
+
+#~ msgid "Default Carrier (if carrier system is disabled)"
+#~ msgstr "Corriere predefinito (se il sistema corrieri è disattivo)"
+
+#~ msgid "Event name"
+#~ msgstr "Nome evento"
+
+#~ msgid "Date From"
+#~ msgstr "Data da"
+
+#~ msgid "Shipping Day for Product Category"
+#~ msgstr "Giorno di spedizione per la categoria di prodotto"
+
+#~ msgid "Day"
+#~ msgstr "Giorno"
+
+#~ msgid "Update All"
+#~ msgstr "Aggiorna tutto"
+
+#~ msgid "Between"
+#~ msgstr "Tra"
+
+#~ msgctxt "allows to select the created carriers"
+#~ msgid "Select Carrier"
+#~ msgstr "Seleziona corriere"
+
+#~ msgid ""
+#~ "If the carriers system has been enabled, select the carriers for this "
+#~ "method"
+#~ msgstr ""
+#~ "Se è stato attivato il sistema corrieri seleziona i corrieri per questo "
+#~ "metodo"
+
+#~ msgid "Select  a Shipping Zone"
+#~ msgstr "Seleziona una zona di spedizione"
+
+#~ msgid "Set as Mandatory"
+#~ msgstr "Imposta come obbligatorio"
+
+#~ msgid "This processing method is set in WooCommerce Shipping Method:"
+#~ msgstr ""
+#~ "Questo metodo di elaborazione è impostato nel metodo di spedizione di "
+#~ "WooCommerce:"
+
+#~ msgid "Edit settings"
+#~ msgstr "Modifica impostazioni"
+
+#~ msgid "Manage Shipping Methods"
+#~ msgstr "Gestisci metodi di spedizione"
+
+#~ msgctxt "Days span"
+#~ msgid "Between"
+#~ msgstr "Tra"
+
+#~ msgctxt "Days span"
+#~ msgid "and"
+#~ msgstr "e"
+
+#~ msgid "Your order will be shipped on"
+#~ msgstr "Il tuo ordine verrà spedito il"
+
+#~ msgid "You can select a time slot for this day"
+#~ msgstr "Puoi selezionare una fascia oraria per questo giorno"
+
+#~ msgid "Live demo"
+#~ msgstr "Live demo"
+
+#~ msgid "Plugin documentation"
+#~ msgstr "Documentazione plugin"
+
+#~ msgid ""
+#~ "Non verrà inviata nessuna email poiche il cliente ha negato il consenso "
+#~ "durante il checkout"
+#~ msgstr ""
+#~ "Non verrà inviata nessuna email poiché il cliente ha negato il consenso "
+#~ "durante il checkout"
+
+#~ msgctxt "enhanced select"
+#~ msgid "One result is available, press enter to select it."
+#~ msgstr "Un risultato disponibile, premi invio per selezionarlo."
+
+#~ msgctxt "enhanced select"
+#~ msgid "%qty% results are available, use up and down arrow keys to navigate."
+#~ msgstr "%qty% risultati disponibili, usa le frecce su giù per navigare."
+
+#~ msgctxt "enhanced select"
+#~ msgid "No matches found"
+#~ msgstr "Nessuna corrispondenza trovata"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Loading failed"
+#~ msgstr "Caricamento fallito"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please enter 1 or more characters"
+#~ msgstr "Per favore inserisci 1 o più caratteri"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please enter %qty% or more characters"
+#~ msgstr "Per favore inserisci %qty% o più caratteri"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please delete 1 character"
+#~ msgstr "Per favore elimina 1 carattere"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Please delete %qty% characters"
+#~ msgstr "Per favore elimina %qty% caratteri"
+
+#~ msgctxt "enhanced select"
+#~ msgid "You can only select 1 item"
+#~ msgstr "Puoi selezionare solo 1 elemento"
+
+#~ msgctxt "enhanced select"
+#~ msgid "You can only select %qty% items"
+#~ msgstr "Puoi selezionare solo %qty% elementi"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Loading more results&hellip;"
+#~ msgstr "Più risultati in caricamento&hellip;"
+
+#~ msgctxt "enhanced select"
+#~ msgid "Searching&hellip;"
+#~ msgstr "Ricerca in corso&hellip;"

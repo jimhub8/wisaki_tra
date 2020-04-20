@@ -1,0 +1,25 @@
+.form-table
+{
+	width: 95%;
+	margin: auto;
+}
+table thead tr a, table tfoot tr th a {
+	color: #a46497; 
+}
+table thead tr a:hover, table tfoot tr a:hover {
+	color: #4675FF;
+}
+.widefat tfoot tr td, .widefat tfoot tr th, .widefat thead tr th.first-head
+{
+	color:black;
+}
+.white-box {
+	background-color: white;
+	/* box-shadow: 2px 5px 10px; */
+	box-shadow: 1px 1px 2px;
+	padding: 15px 15px 15px 15px;
+	overflow: auto;
+}
+.wc_shipping.widefat.wp-list-table {
+	margin-bottom: 50px;
+}

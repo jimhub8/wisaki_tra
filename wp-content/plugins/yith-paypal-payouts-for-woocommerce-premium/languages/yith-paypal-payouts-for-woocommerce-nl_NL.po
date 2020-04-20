@@ -1,0 +1,685 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH PayPal Payouts for WooCommerce\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2019-04-25 11:59+0100\n"
+"PO-Revision-Date: 2019-04-25 12:01+0100\n"
+"Last-Translator: \n"
+"Language-Team: YIThemes <plugins@yithemes.com>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __ ;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: includes/class.yith-payout-endpoint.php:86
+#: plugin-options/privacy-settings-options.php:56
+msgid "Payouts"
+msgstr "Payouts"
+
+#: includes/class.yith-payout-items-list-table.php:30
+msgid "Receiver"
+msgstr "Ontvanger"
+
+#: includes/class.yith-payout-items-list-table.php:31
+#: includes/class.yith-payouts-privacy.php:121
+#: templates/view-payouts-list.php:9
+msgid "Transaction ID"
+msgstr "Transactie ID"
+
+#: includes/class.yith-payout-items-list-table.php:32
+#: templates/view-payouts-list.php:10
+msgid "Transaction Status"
+msgstr "Transactie status"
+
+#: includes/class.yith-payout-items-list-table.php:33
+#: templates/view-payouts-list.php:11
+msgid "Amount"
+msgstr "Bedrag"
+
+#: includes/class.yith-payout-items-list-table.php:34
+#: includes/class.yith-payout-items-list-table.php:393
+#: includes/class.yith-payout-items-list-table.php:455
+msgid "Fee"
+msgstr "Kosten"
+
+#: includes/class.yith-payout-items-list-table.php:201
+msgid "Order/Commission ID"
+msgstr "Bestelling/commissie ID"
+
+#: includes/class.yith-payout-items-list-table.php:202
+msgid "Total"
+msgstr "Totaal"
+
+#: includes/class.yith-payout-items-list-table.php:260
+msgid "Total Fee"
+msgstr "Totaal kosten"
+
+#: includes/class.yith-payout-items-list-table.php:302
+msgctxt "Commission for order #123"
+msgid "Commission"
+msgstr "Commissie"
+
+#: includes/class.yith-payout-items-list-table.php:303
+msgctxt "Commission for order #123"
+msgid "for order"
+msgstr "Voor bestelling"
+
+#: includes/class.yith-payout-items-list-table.php:315
+#: includes/class.yith-payout-items-list-table.php:461
+msgid "Total transaction"
+msgstr "Totaal transactie"
+
+#: includes/class.yith-payout-items-list-table.php:320
+#: includes/class.yith-payout-items-list-table.php:405
+msgid "No commission found for this transaction ID"
+msgstr "Geen commissie gevonden voor deze transactie ID"
+
+#: includes/class.yith-payout-items-list-table.php:384
+msgid "Receiver Commission"
+msgstr "Commissie ontvanger"
+
+#: includes/class.yith-payout-items-list-table.php:398
+msgid "Net Total"
+msgstr "Netto totaal"
+
+#: includes/class.yith-payout-items-list-table.php:432
+msgctxt "Affiliate Payment for : list payment ids"
+msgid "Affiliate Payment"
+msgstr "Betaling affiliate"
+
+#: includes/class.yith-payout-items-list-table.php:466
+msgid "No affiliate payments found for this transaction ID"
+msgstr "Geen affiliate betaling gevonden voor deze transactie ID"
+
+#. translators: %s: order ID
+#: includes/class.yith-payout-items-list-table.php:482
+msgid "Transaction ID #%s"
+msgstr "Transactie ID #%s"
+
+#: includes/class.yith-payout-items-list-table.php:484
+msgid "Close modal panel"
+msgstr "Modaal paneel sluiten"
+
+#: includes/class.yith-payouts-admin.php:103
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: includes/class.yith-payouts-admin.php:104
+msgid "Payout Receivers Settings"
+msgstr "Instellingen voor Payout ontvangers"
+
+#: includes/class.yith-payouts-admin.php:105
+msgid "Payouts List"
+msgstr "Payouts lijst"
+
+#: includes/class.yith-payouts-admin.php:106
+msgid "Privacy Settings"
+msgstr "Privacy instellingen"
+
+#: includes/class.yith-payouts-admin.php:113
+#: includes/class.yith-payouts-privacy.php:74
+msgid "PayPal Payouts"
+msgstr "PayPal Payouts"
+
+#: includes/class.yith-payouts-list-table.php:28
+#: includes/class.yith-payouts-privacy.php:120
+msgid "Payout Batch ID"
+msgstr "Payout Batch ID"
+
+#: includes/class.yith-payouts-list-table.php:29
+msgid "Payout Batch Status"
+msgstr "Payout Batch Status"
+
+#: includes/class.yith-payouts-list-table.php:30
+msgid "Payout Mode"
+msgstr "Payout Modus"
+
+#: includes/class.yith-payouts-list-table.php:31
+#: includes/class.yith-payouts-list-table.php:78
+#: templates/admin/payouts-list.php:54
+msgid "Payout Details"
+msgstr "Payout Details"
+
+#: includes/class.yith-payouts-list-table.php:47
+msgid "N/A"
+msgstr "N.v.t."
+
+#: includes/class.yith-payouts-list-table.php:125
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: includes/class.yith-payouts-list-table.php:126
+msgid "Force Delete( Payout without Payout Batch ID )"
+msgstr "Forceer verwijderen (uitbetaling zonder Payout Batch ID)"
+
+#: includes/class.yith-payouts-list-table.php:191
+msgid "Payment Mode"
+msgstr "Betaalwijzen"
+
+#: includes/class.yith-payouts-list-table.php:193
+msgid "All Payments mode"
+msgstr "Alle betaalwijzen"
+
+#: includes/class.yith-payouts-list-table.php:263
+msgid "All"
+msgstr "Alle"
+
+#: includes/class.yith-payouts-privacy.php:41
+msgid "User commission data"
+msgstr "Commissie gegevens gebruiker"
+
+#: includes/class.yith-payouts-privacy.php:48
+msgid "User data in PayPal Payouts"
+msgstr "Gebruikersgegevens in PayPal Payouts"
+
+#: includes/class.yith-payouts-privacy.php:118
+msgid "ID"
+msgstr "ID"
+
+#: includes/class.yith-payouts-privacy.php:119
+msgid "Payout Item ID"
+msgstr "Payout Item ID"
+
+#: includes/class.yith-payouts-privacy.php:122
+msgid "Transaction status"
+msgstr "Transactie status"
+
+#: includes/class.yith-payouts-privacy.php:123
+msgid "Transaction value"
+msgstr "Transactie waarde"
+
+#: includes/class.yith-payouts-privacy.php:124
+msgid "Transaction Fee"
+msgstr "Transactiekosten"
+
+#: includes/class.yith-payouts-privacy.php:125
+msgid "Transaction Currency"
+msgstr "Transactie valuta"
+
+#: includes/class.yith-payouts-privacy.php:142
+msgid "User Payouts Data (PayPal Payouts)"
+msgstr "Gebruikersgegevens Payouts (PayPal Payouts)"
+
+#: includes/class.yith-payouts-privacy.php:173
+msgid "User Payouts data"
+msgstr "Gebruikersgegevens Payouts"
+
+#: includes/class.yith-payouts-privacy.php:183
+msgid "User info data"
+msgstr "Gebruikersinformatie"
+
+#: includes/class.yith-payouts-privacy.php:234
+msgctxt "[GDPR Message]"
+msgid "Removed User information From PayPal Payouts Items"
+msgstr "Gebruikersinformatie verwijderd van PayPal Payouts items"
+
+#: includes/class.yith-payouts-privacy.php:277
+msgid "PayPal email removed"
+msgstr "PayPal e-mail verwijderd"
+
+#: includes/class.yith-payouts-privacy.php:295
+msgid ""
+"We collect information about you during the registration and checkout "
+"process on our store."
+msgstr ""
+"We verzamelen informatie over u tijdens de registratie en de het checkout "
+"proces in onze winkel."
+
+#: includes/class.yith-payouts-privacy.php:296
+msgid "While you visit our site, we’ll track:"
+msgstr "Terwijl u onze site bezoekt, volgen wij:"
+
+#: includes/class.yith-payouts-privacy.php:298
+msgid ""
+"User information: we will use these data to allows them to sell products on "
+"this website in exchange of a commission fee on each sale."
+msgstr ""
+"Gebruikersinformatie: we zullen deze gegevens gebruiken om producten te "
+"verkopen op deze site in ruil voor commissie bij iedere verkoop."
+
+#: includes/class.yith-payouts-privacy.php:299
+msgid ""
+"The information required are the following: paypal email and commission rate"
+msgstr "De volgende informatie is verplicht: paypal e-mail en commissie tarief"
+
+#: includes/class.yith-payouts-privacy.php:304
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Shop Managers can access:"
+msgstr ""
+"Onze teamleden hebben toegang tot de informatie die je ons geeft. Voorbeeld, "
+"zowel administrateurs en winkelmanagers hebben toegang tot:"
+
+#: includes/class.yith-payouts-privacy.php:306
+msgid "User information"
+msgstr "Gebruikersinformatie"
+
+#: includes/class.yith-payouts-privacy.php:307
+msgid "Data concerning commissions earned by the user"
+msgstr "Gegevens betreffende commissies ontvangen door gebruiker"
+
+#: includes/class.yith-payouts-privacy.php:308
+msgid "Data about payments"
+msgstr "Betaalgegevens"
+
+#: includes/class.yith-payouts-privacy.php:310
+msgid ""
+"Our team members have access to this information to help fulfill orders, "
+"process orders and support you."
+msgstr ""
+"Onze teamleden hebben toegang tot deze informatie om te helpen met afronden "
+"van bestellingen, verwerken van bestellingen en voor uw ondersteuning."
+
+#: includes/class.yith-payouts-privacy.php:314
+msgid ""
+"We send payments to vendors through PayPal. When processing payments, some "
+"of your data will be passed to PayPal, including information required to "
+"process or support the payment, such as the purchase total and billing "
+"information."
+msgstr ""
+"We sturen betalingen aan verkopers via PayPal. Bij het verwerken van "
+"betalingen, zullen enkele gegevens worden doorgestuurd naar PayPal, "
+"inclusief informatie die nodig is voor het verwerken of ondersteuning van de "
+"betaling, zoals het totaal aankoopbedrag en factuurinformatie."
+
+#: includes/class.yith-payouts-privacy.php:315
+msgid ""
+"Please see the <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-"
+"full\">PayPal Privacy Policy</a> for more details."
+msgstr ""
+"Bekijk het <a href=\"https://www.paypal.com/us/webapps/mpp/ua/privacy-full"
+"\">PayPal Privacy beleid</a> voor meer details."
+
+#: includes/class.yith-payouts-privacy.php:319
+msgid ""
+"We share information with third parties who help us provide our orders and "
+"store services to you."
+msgstr ""
+"We delen informatie met derden die ons helpen bij het aanleveren van onze "
+"bestellingen en winkel diensten voor jou."
+
+#: includes/class.yith-payouts-service.php:107
+#: plugin-options/general-settings-options.php:26
+msgid "Application Client ID"
+msgstr "Applicatie klant ID"
+
+#: includes/class.yith-payouts-service.php:111
+msgid "Application Client Secret Key"
+msgstr "Applicatie Secret Key klant"
+
+#: includes/class.yith-payouts-service.php:118
+msgid "The following option is empty"
+msgid_plural "The following options are empty"
+msgstr[0] "De volgende optie is leeg"
+msgstr[1] "De volgende opties zijn leeg"
+
+#: includes/class.yith-payouts-service.php:120
+msgid "YITH PayPal Payouts for WooCommerce is disabled"
+msgstr ""
+"YITH PayPal Payouts for WooCommerce is ingeschakeld maar niet actief. Het "
+"heeft WooCommerce nodig om te werken."
+
+#: includes/class.yith-payouts.php:326
+msgid "Instant Payment"
+msgstr "Onmiddellijke Betaling"
+
+#: includes/class.yith-payouts.php:327
+msgid "Commission Payment"
+msgstr "Commissie betaling"
+
+#: includes/class.yith-payouts.php:328
+msgid "Affiliate Payment"
+msgstr "Affiliatie betaling"
+
+#: init.php:37
+msgid ""
+"YITH PayPal Payouts for WooCommerce is enabled but not active. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH PayPal Payouts for WooCommerce is ingeschakeld maar niet actief. Het "
+"heeft WooCommerce nodig om te werken."
+
+#: init.php:45
+msgid ""
+"You can't activate YITH PayPal Payouts because opcache.save_comments isn't "
+"configured. Please, try to ask your host provider"
+msgstr ""
+"U kunt YITH PayPal Payouts niet activeren omdat opcache.save_comments niet "
+"is geconfigureerd. Probeer contact op te nemen met uw host provider"
+
+#: plugin-options/general-settings-options.php:15
+msgid "Payouts API Settings"
+msgstr "Payouts API instellingen"
+
+#: plugin-options/general-settings-options.php:19
+msgid "PayPal business email"
+msgstr "PayPal zakelijke e-mail"
+
+#: plugin-options/general-settings-options.php:20
+msgid "Set your business PayPal email to use Payouts service"
+msgstr "Stel uw zakelijke PayPal e-mail in om Payouts service te gebruiken"
+
+#: plugin-options/general-settings-options.php:27
+msgid "Set your application client ID to use Payouts service"
+msgstr "Stel uw applicatie klant ID in om Payouts service te gebruiken"
+
+#: plugin-options/general-settings-options.php:33
+msgid "Application Client KEY"
+msgstr "Applicatie klant KEY"
+
+#: plugin-options/general-settings-options.php:34
+msgid "Set your application client secret Key to use Payouts service"
+msgstr "Stel uw applicatie klant secret key in om Payouts service te gebruiken"
+
+#: plugin-options/general-settings-options.php:39
+msgid "Enable Sandbox Mode"
+msgstr "Sandbox modus inschakelen"
+
+#: plugin-options/general-settings-options.php:46
+msgid "Enable Log"
+msgstr "Log inschakelen"
+
+#: plugin-options/general-settings-options.php:53
+msgid "Exclude Vendor Product from Payouts calculation"
+msgstr "Product van verkoper uitsluiten van Payouts berekening"
+
+#: plugin-options/general-settings-options.php:56
+msgid ""
+"If checked, vendors' products won't be calculated in payouts. This option is "
+"available only with YITH WooCommerce Multi Vendor version 3.0.0 or higher"
+msgstr ""
+"Indien aangevinkt, zullen producten van verkopers niet worden berekend in "
+"payouts. Deze optie is alleen beschikbaar met YITH WooCommerce Multi Vendor "
+"version 3.0.0 of hoger"
+
+#: plugin-options/general-settings-options.php:64
+msgid "WebHook Configuration"
+msgstr "WebHook configuratie"
+
+#: plugin-options/general-settings-options.php:65
+msgid ""
+"You can configure the webhook URL %s in your <a href=\"%s\">application "
+"settings</a>. All the webhooks for all your connected users will be sent to "
+"this endpoint."
+msgstr ""
+"U kunt uw webhook URL %s configureren in uw <a href=\"%s\">applicatie "
+"instellingen</a>. Alle webhooks voor al uw verbonden gebruikers zullen "
+"worden doorgestuurd naar dit eindpunt."
+
+#: plugin-options/general-settings-options.php:66
+msgid ""
+"It's important to note that only test webhooks will be sent to your "
+"development webhook URL. Yet, if you are working on a live website, <b>both "
+"live and test</b> webhooks will be sent to your production webhook URL. This "
+"is due to the fact that you can create both live and test objects under a "
+"production application."
+msgstr ""
+"Het is belangrijk om te weten dat alleen test webhooks zullen worden "
+"verstuurd naar uw development webhook URL. Als u werkt op een live website "
+"daarentegen zullen <b>beide live en test</b> webhooks worden verzonden naar "
+"uw productie webhook URL. Dit komt omdat u zowel live als test objecten kunt "
+"maken onder een productie applicatie."
+
+#: plugin-options/general-settings-options.php:66
+msgid ""
+"we'd recommend that you check the live mode when receiving an event webhook."
+msgstr ""
+"we willen u aanraden om de live demo mode te controleren bij het ontvangen "
+"van een webhook gebeurtenis."
+
+#: plugin-options/general-settings-options.php:67
+msgid ""
+"For further information about webhooks, refer to the <a href=\"%s\">webhook "
+"documentation</a>"
+msgstr ""
+"Voor meer informatie betreffende webhooks, bekijk de <a href=\"%s\">webhook "
+"documentatie</a>"
+
+#: plugin-options/payout-receivers-options.php:15
+msgid "Receivers List"
+msgstr "Ontvangers lijst"
+
+#: plugin-options/privacy-settings-options.php:20
+msgid "Personal Data Exporter"
+msgstr "Persoonlijke gegevens exporteur"
+
+#: plugin-options/privacy-settings-options.php:25
+msgid "Export user's payouts"
+msgstr "Exporteer Payouts van gebruikers"
+
+#: plugin-options/privacy-settings-options.php:28
+msgid "Export Payouts"
+msgstr "Exporteer Payouts"
+
+#: plugin-options/privacy-settings-options.php:29
+msgid ""
+"When handling an <a href=\"%s\">account personal data export request</a>, "
+"should it include payouts ?"
+msgstr ""
+"Bij het verwerken van een <a href=\"%s\">exportverzoek van persoonlijke "
+"gegevens account</a>, moeten payouts worden meegenomen?"
+
+#: plugin-options/privacy-settings-options.php:42
+msgid "Personal Data Eraser"
+msgstr "Persoonlijke gegevens verwijderen"
+
+#: plugin-options/privacy-settings-options.php:47
+msgid "User data"
+msgstr "Gebruikersgegevens"
+
+#: plugin-options/privacy-settings-options.php:50
+msgid "Remove user data info"
+msgstr "Verwijder informatie gebruikersgegevens"
+
+#: plugin-options/privacy-settings-options.php:51
+msgid ""
+"When handling an <a href=\"%s\">account erasure request</a>, should user's "
+"PayPal email be retained or removed?"
+msgstr ""
+"Bij het verwerken van een <a href=\"%s\">wis account verzoek</a>, moet de "
+"PayPal e-mail van de gebruiker worden verwijderd of behouden?"
+
+#: plugin-options/privacy-settings-options.php:59
+msgid "Remove customer's PayPal email for payouts"
+msgstr "Verwijder PayPal e-mail van klant voor payouts"
+
+#: plugin-options/privacy-settings-options.php:60
+msgid ""
+"When handling an <a href=\"%s\">account erasure request</a>, should PayPal "
+"email within payouts be retained or removed?"
+msgstr ""
+"Bij het verwerken van een <a href=\"%s\">wis account verzoek</a>, moet de "
+"PayPal e-mail binnen payouts worden verwijderd of behouden?"
+
+#: plugin-options/types/yith_payouts_receiver_list.php:20
+msgid "User"
+msgstr "Gebruiker"
+
+#: plugin-options/types/yith_payouts_receiver_list.php:21
+msgid "PayPal Email"
+msgstr "PayPal e-mail"
+
+#: plugin-options/types/yith_payouts_receiver_list.php:22
+msgid "Commission"
+msgstr "Commissie"
+
+#: plugin-options/types/yith_payouts_receiver_list.php:41
+msgid "Add new Receiver"
+msgstr "Nieuwe ontvanger toevoegen"
+
+#: plugin-options/types/yith_payouts_single_receiver.php:16
+msgid "Search for users"
+msgstr "Zoeken naar gebruikers"
+
+#: plugin-options/types/yith_payouts_single_receiver.php:36
+msgid "Enter a valid email"
+msgstr "Geldig e-mailadres invoegen"
+
+#: plugin-options/types/yith_payouts_single_receiver.php:42
+msgid "Insert commission rate"
+msgstr "Commissie tarief invoeren"
+
+#: plugin-options/types/yith_payouts_single_receiver.php:44
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: templates/admin/payouts-list.php:43
+msgid "Return to Payout List"
+msgstr "Keer terug naar Payout lijst"
+
+#: templates/admin/payouts-list.php:56
+msgctxt "yith-paypal-payouts-for-woocommerce"
+msgid "Payout Item"
+msgstr "Payout Item"
+
+#: templates/admin/payouts-list.php:58
+msgctxt "yith-paypal-payouts-for-woocommerce"
+msgid "Payout Items"
+msgstr "Payout Items"
+
+#: templates/admin/payouts-list.php:67
+msgid "Payout List"
+msgstr "Payout Lijst"
+
+#: templates/admin/payouts-list.php:69
+msgctxt "yith-paypal-payouts-for-woocommerce"
+msgid "Payout"
+msgstr "Payout"
+
+#: templates/admin/payouts-list.php:71
+msgctxt "yith-paypal-payouts-for-woocommerce"
+msgid "Payouts"
+msgstr "Payouts"
+
+#: templates/admin/payouts-list.php:85
+msgid "Search Receiver"
+msgstr "Zoek ontvanger"
+
+#: templates/view-payouts-list.php:8
+msgid "Payout item ID"
+msgstr "Payout item ID"
+
+#: templates/view-payouts-list.php:71
+msgid "Previous"
+msgstr "Vorige"
+
+#: templates/view-payouts-list.php:76
+msgid "Next"
+msgstr "Volgende"
+
+#: templates/view-payouts-list.php:85
+msgid "Go to the shop"
+msgstr "Ga naar de winkel"
+
+#: templates/view-payouts-list.php:87
+msgid "No payout has been made yet."
+msgstr "Er zijn nog geen uitbetalingen gedaan."
+
+#. Plugin Name of the plugin/theme
+msgid "YITH PayPal Payouts for WooCommerce Premium"
+msgstr "YITH PayPal Payouts for WooCommerce Premium"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://yithemes.com/themes/plugins/yith-paypal-payouts-for-woocommerce/"
+msgstr ""
+"https://yithemes.com/themes/plugins/yith-paypal-payouts-for-woocommerce/"
+
+#. Description of the plugin/theme
+msgid ""
+"The plugin allows you to share the profits of your store automatically with "
+"others thanks to PayPal payouts. <a href=\"https://yithemes.com\">Get more "
+"plugins for your e-commerce shop on <strong>YITH</strong></a>."
+msgstr ""
+"Met de plug-in kunt u de winsten van uw winkel automatisch delen met anderen "
+"dankzij PayPal payouts. <a href=\"https://yithemes.com\">Download meer plug-"
+"ins voor uw e-commerce winkel op <strong>YITH</strong></a> ."
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr "YITH"
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#~ msgctxt "Parent Order: #23"
+#~ msgid "Parent Order: %s"
+#~ msgstr "Hoofdbestelling: %s"
+
+#~ msgctxt "Affiliate Payment for : list payment ids"
+#~ msgid "Affiliate Payment for"
+#~ msgstr "Affiliate betaling voor"
+
+#~ msgid "PayOut Batch ID"
+#~ msgstr "PayOut Batch ID"
+
+#~ msgid "PayOut Batch Status"
+#~ msgstr "PayOut Batch Status"
+
+#~ msgid "PayOut Mode"
+#~ msgstr "PayOut Modus"
+
+#~ msgid "User data in PayPal PayOuts"
+#~ msgstr "Gebruikersgegevens in PayPal Payouts"
+
+#~ msgid "PayPal PayOuts"
+#~ msgstr "PayPal PayOuts"
+
+#~ msgid "PayOut Item ID"
+#~ msgstr "PayOut Item ID"
+
+#~ msgid "User PayOuts Data (PayPal PayOuts)"
+#~ msgstr "Gebruikersgegevens Payouts (PayPal Payouts)"
+
+#~ msgid "User PayOuts data"
+#~ msgstr "Gebruikersgegevens Payouts"
+
+#~ msgid "YITH PayPal PayOuts for WooCommerce is disabled"
+#~ msgstr "YITH PayPal PayOuts for WooCommerce is uitgeschakeld"
+
+#~ msgid "Set your business PayPal email to use PayOuts service"
+#~ msgstr "Stel uw zakelijke PayPal e-mail in om Payouts service te gebruiken"
+
+#~ msgid "Set your application client ID to use PayOuts service"
+#~ msgstr "Stel uw applicatie klant ID in om Payouts service te gebruiken"
+
+#~ msgid "Set your application client secret Key to use PayOuts service"
+#~ msgstr ""
+#~ "Stel uw applicatie klant secret key in om Payouts service te gebruiken"
+
+#~ msgid "Exclude Vendor Product from PayOuts calculation"
+#~ msgstr "Product van verkoper uitsluiten van Payouts berekening"
+
+#~ msgid "Export PayOuts"
+#~ msgstr "Exporteer Payouts"
+
+#~ msgid "PayOuts"
+#~ msgstr "PayOuts"
+
+#~ msgctxt "yith-paypal-payouts-for-woocommerce"
+#~ msgid "PayOut Item"
+#~ msgstr "PayOut Item"
+
+#~ msgctxt "yith-paypal-payouts-for-woocommerce"
+#~ msgid "PayOut Items"
+#~ msgstr "PayOut Items"
+
+#~ msgid "PayOut List"
+#~ msgstr "PayOut Lijst"
+
+#~ msgctxt "yith-paypal-payouts-for-woocommerce"
+#~ msgid "PayOut"
+#~ msgstr "PayOut"
+
+#~ msgctxt "yith-paypal-payouts-for-woocommerce"
+#~ msgid "PayOuts"
+#~ msgstr "PayOuts"

@@ -1,0 +1,8 @@
+<wpml-config>
+	<taxonomies>
+		<taxonomy translate="1">product_brand</taxonomy>
+	</taxonomies>
+	<admin-texts>
+		<key name="pw_woocommerce_brands_text"/>
+	</admin-texts>
+</wpml-config>

@@ -1,0 +1,666 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Customize My Account Page\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2019-04-17 08:15:17+00:00\n"
+"PO-Revision-Date: 2018-09-18 15:22+0200\n"
+"Last-Translator: \n"
+"Language-Team: YIThemes <plugins@yithemes.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: includes/class.yith-wcmap-admin.php:132
+#: templates/admin/endpoint-item.php:49 templates/admin/group-item.php:33
+#: templates/admin/link-item.php:35
+msgid "Show"
+msgstr "Показать"
+
+#: includes/class.yith-wcmap-admin.php:133
+#: templates/admin/endpoint-item.php:49 templates/admin/group-item.php:33
+#: templates/admin/link-item.php:35
+msgid "Hide"
+msgstr "Скрыть"
+
+#: includes/class.yith-wcmap-admin.php:137
+msgid "Are you sure that you want to delete this endpoint?"
+msgstr "Это будет удалено навсегда. Вы хотите удалить его?"
+
+#: includes/class.yith-wcmap-admin.php:176
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class.yith-wcmap-admin.php:177
+msgid "Security"
+msgstr ""
+
+#: includes/class.yith-wcmap-admin.php:178
+msgid "Endpoints"
+msgstr "Эндпоинты"
+
+#: includes/class.yith-wcmap-admin.php:184
+#: includes/class.yith-wcmap-admin.php:185
+msgid "Customize My Account Page"
+msgstr "Настроить страницу моей учетной записи"
+
+#: includes/class.yith-wcmap-admin.php:460
+msgid ""
+"An error has occurred or this endpoint field already exists. Please try "
+"again."
+msgstr ""
+"Произошла ошибка или это поле эндпоинта уже существует. Пожалуйста, "
+"попробуйте еще раз."
+
+#: includes/class.yith-wcmap-frontend.php:376
+msgid "Quote #%s"
+msgstr "Квота #%s"
+
+#: includes/class.yith-wcmap-frontend.php:682
+msgid "There are no available downloads yet."
+msgstr "Пока нет доступных загрузок."
+
+#: includes/class.yith-wcmap-frontend.php:738
+msgid "Invalid order."
+msgstr "Ошибка в заказе."
+
+#: includes/class.yith-wcmap-frontend.php:738
+msgid "My Account"
+msgstr "Мой аккаунт"
+
+#: includes/class.yith-wcmap-frontend.php:777
+msgid "There are no orders yet."
+msgstr "Пока что заказов нет."
+
+#: includes/class.yith-wcmap-items.php:120
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: includes/class.yith-wcmap-items.php:121
+msgid "My Orders"
+msgstr "Заказы"
+
+#: includes/class.yith-wcmap-items.php:122
+msgid "My Downloads"
+msgstr "Загрузки"
+
+#: includes/class.yith-wcmap-items.php:123
+msgid "Edit Address"
+msgstr "Изменить адрес"
+
+#: includes/class.yith-wcmap-items.php:124
+msgid "Payment Methods"
+msgstr "Методы оплаты"
+
+#: includes/class.yith-wcmap-items.php:125
+msgid "Edit Account"
+msgstr "Изменить аккаунт"
+
+#: includes/class.yith-wcmap-items.php:126
+#: templates/ywcmap-myaccount-menu.php:34
+msgid "Logout"
+msgstr "Выйти"
+
+#: includes/class.yith-wcmap-security.php:170
+msgid "ReCaptcha validation error. Please try again."
+msgstr ""
+
+#: includes/class.yith-wcmap-security.php:198
+msgid "Email domain is not valid! Please use a different one and try again."
+msgstr ""
+
+#: includes/class.yith-wcmap-security.php:409
+msgid "Click here to resend email."
+msgstr ""
+
+#: includes/class.yith-wcmap-security.php:428
+msgid ""
+"You have to confirm your account. Please, click on the link in the "
+"verification email."
+msgstr ""
+
+#: includes/class.yith-wcmap-security.php:433
+msgid "An account is already registered with this email. %s"
+msgstr ""
+
+#: includes/class.yith-wcmap-security.php:436
+msgid "Login is not permitted! %s"
+msgstr ""
+
+#: includes/class.yith-wcmap-security.php:439
+msgid "Checkout is not permitted! %s"
+msgstr ""
+
+#: includes/class.yith-wcmap-security.php:442
+msgid "Thanks your account is now confirmed!"
+msgstr ""
+
+#: includes/class.yith-wcmap-security.php:445
+msgid ""
+"A confirmation email has been sent to your email address. Please click on "
+"the confirmation link in the email to complete your account activation."
+msgstr ""
+
+#: includes/class.yith-wcmap.php:82 includes/class.yith-wcmap.php:91
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class.yith-wcmap.php:415 plugin-options/general-options.php:21
+msgid "Custom Avatar"
+msgstr "Аватар пользователя"
+
+#: includes/class.yith-wcmap.php:455
+#, fuzzy
+msgid "Removed customer avatar"
+msgstr "Аватар пользователя"
+
+#: includes/email/class.yith-wcmap-verify-account.php:50
+#, fuzzy
+msgid "YITH Customize My Account Verify Account"
+msgstr "Настроить страницу моей учетной записи"
+
+#: includes/email/class.yith-wcmap-verify-account.php:54
+msgid "{blogname}"
+msgstr ""
+
+#: includes/email/class.yith-wcmap-verify-account.php:55
+msgid "You need to verify your account email."
+msgstr ""
+
+#: init.php:43
+msgid ""
+"YITH WooCommerce Customize My Account Page is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Customize My Account Page активирован, но не работает "
+"эффективно. Рекомендуем установить плагин WooCommerce для работы нашего "
+"плагина."
+
+#: plugin-options/endpoints-options.php:14
+msgid "Endpoint Options"
+msgstr "Опции эндпоинтов"
+
+#: plugin-options/endpoints-options.php:21 templates/admin/items-list.php:20
+msgid "Manage Endpoints"
+msgstr "Управлять эндртипами"
+
+#: plugin-options/general-options.php:14
+msgid "General Options"
+msgstr "Основные опции"
+
+#: plugin-options/general-options.php:22
+msgid "Let users upload a custom avatar as their profile picture."
+msgstr "Разрешите пользователям загружать аватар в их аккаунт."
+
+#: plugin-options/general-options.php:29
+msgid "Menu style"
+msgstr "Стиль  меню"
+
+#: plugin-options/general-options.php:33
+msgid "Choose the style for the \"My Account\" menu"
+msgstr "Выберите стиль для «Мой аккаунт» меню"
+
+#: plugin-options/general-options.php:35
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+#: plugin-options/general-options.php:36
+msgid "Tab"
+msgstr "Вкладка"
+
+#: plugin-options/general-options.php:41
+msgid "Sidebar position"
+msgstr "Положение сайдбара"
+
+#: plugin-options/general-options.php:42
+msgid ""
+"Choose the position of the menu in \"My Account\" page (only for sidebar "
+"style)"
+msgstr ""
+"Выберите положение меню на странице «Мой аккаунт» (только для стиля с "
+"сайдбаром)"
+
+#: plugin-options/general-options.php:45
+msgid "Left"
+msgstr "Лево"
+
+#: plugin-options/general-options.php:46
+msgid "Right"
+msgstr "Право "
+
+#: plugin-options/general-options.php:53
+msgid "Default endpoint"
+msgstr "Эндпоинт по умолчанию"
+
+#: plugin-options/general-options.php:54
+msgid "Choose the default endpoint for \"My account\" page"
+msgstr "Выберите эндпоинт по умолчанию для страницы «Мой аккаунт»"
+
+#: plugin-options/general-options.php:67
+msgid "Style Options"
+msgstr "Опции стиля"
+
+#: plugin-options/general-options.php:74
+msgid "Menu item color"
+msgstr "Цвет ячейки меню"
+
+#: plugin-options/general-options.php:78
+msgid "Choose a color for menu items."
+msgstr "Выберите цвет для элемента меню"
+
+#: plugin-options/general-options.php:82
+msgid "Menu item color on hover"
+msgstr "Цвет ячейки меню при нажатии"
+
+#: plugin-options/general-options.php:86
+msgid "Choose colour of menu items on mouse hover."
+msgstr "Выберите цвет элемента меню при наведении мышки."
+
+#: plugin-options/general-options.php:90
+msgid "Logout color"
+msgstr "Цвет ссылки «Выйти»"
+
+#: plugin-options/general-options.php:94
+msgid "Choose the color of the Logout text."
+msgstr "Выберите цвет текста для ссылки «Выйти»"
+
+#: plugin-options/general-options.php:98
+msgid "Logout color on hover"
+msgstr "Цвет ссылки «Выход» при нажатии"
+
+#: plugin-options/general-options.php:102
+msgid "Choose the color of the Logout text on mouse hover."
+msgstr "Выберите цвет текста для ссылки «Выйти» при наведении мышки."
+
+#: plugin-options/general-options.php:106
+msgid "Logout background color"
+msgstr "Цвет фона при выходе"
+
+#: plugin-options/general-options.php:110
+msgid "Choose the color of the Logout background."
+msgstr "Выберите цвет фона для ссылки «Выйти»"
+
+#: plugin-options/general-options.php:114
+msgid "Logout background color on hover"
+msgstr "Фон ссылки «Выйти» при нажатии"
+
+#: plugin-options/general-options.php:118
+msgid "Choose the color of the Logout background on mouse hover."
+msgstr "Выберите цвет фона для ссылки «Выйти» при наведении мышки."
+
+#: plugin-options/plugins-endpoints.php:15
+msgid "My Wishlist"
+msgstr "Мои желания"
+
+#: plugin-options/plugins-endpoints.php:25
+msgid "One click checkout"
+msgstr "Оформление покупки в один клик"
+
+#: plugin-options/plugins-endpoints.php:35
+msgid "My Quotes"
+msgstr "Мои лимиты"
+
+#: plugin-options/plugins-endpoints.php:45
+msgid "My Waiting List"
+msgstr "Лист ожидания"
+
+#: plugin-options/plugins-endpoints.php:53
+msgid "Membership Plans:"
+msgstr "Планы членства:"
+
+#: plugin-options/plugins-endpoints.php:60
+msgid "Membership Plans"
+msgstr "План членства"
+
+#: plugin-options/plugins-endpoints.php:70
+msgid "My Subscriptions"
+msgstr "Подписки"
+
+#: plugin-options/plugins-endpoints.php:81
+msgid "My Membership"
+msgstr "Членство"
+
+#: plugin-options/plugins-endpoints.php:92
+msgid "My Subscription"
+msgstr "Подписка"
+
+#: plugin-options/plugins-endpoints.php:104
+msgid "Make a Deposit"
+msgstr "Внести депозит"
+
+#: plugin-options/plugins-endpoints.php:113
+msgid "Income/Expenditure History"
+msgstr "История входящих/исходящих"
+
+#: plugin-options/plugins-endpoints.php:125
+msgid "Gift Cards"
+msgstr "Подарочные карты"
+
+#: plugin-options/plugins-endpoints.php:137
+msgid "Payouts"
+msgstr ""
+
+#: plugin-options/plugins-endpoints.php:148
+msgid "Stripe Connect"
+msgstr ""
+
+#: plugin-options/security-options.php:14
+#, fuzzy
+msgid "Security Options"
+msgstr "Опции стиля"
+
+#: plugin-options/security-options.php:21
+msgid "Enable reCaptcha"
+msgstr ""
+
+#: plugin-options/security-options.php:22
+msgid "Add reCaptcha (v2) verification to register form."
+msgstr ""
+
+#: plugin-options/security-options.php:29
+msgid "reCaptcha public key"
+msgstr ""
+
+#: plugin-options/security-options.php:36
+msgid "reCaptcha private key"
+msgstr ""
+
+#: plugin-options/security-options.php:43
+msgid "Enable account email verification"
+msgstr ""
+
+#: plugin-options/security-options.php:44
+msgid ""
+"After registration process send an email with a verification link to the "
+"customer."
+msgstr ""
+
+#: plugin-options/security-options.php:51
+msgid "Customer without verified account"
+msgstr ""
+
+#: plugin-options/security-options.php:52
+msgid "Choose the restriction for customer without email verified."
+msgstr ""
+
+#: plugin-options/security-options.php:55
+msgid "Block login"
+msgstr ""
+
+#: plugin-options/security-options.php:56
+msgid "Block purchase"
+msgstr ""
+
+#: plugin-options/security-options.php:63
+msgid "Block email domains"
+msgstr ""
+
+#: plugin-options/security-options.php:64
+msgid ""
+"Add a list of email domains (comma separated) you want to block. Customer "
+"with one of those email domain cannot be register into your site."
+msgstr ""
+
+#: templates/admin/endpoint-item.php:33
+msgid "Endpoint"
+msgstr "Эндпоинт"
+
+#: templates/admin/endpoint-item.php:42 templates/admin/link-item.php:28
+msgid "sub item"
+msgstr "Подэлемент"
+
+#: templates/admin/endpoint-item.php:52 templates/admin/group-item.php:35
+#: templates/admin/link-item.php:37
+msgid "Remove"
+msgstr "Удалить"
+
+#: templates/admin/endpoint-item.php:62
+msgid "Endpoint slug"
+msgstr "Слаг эндпоинта"
+
+#: templates/admin/endpoint-item.php:63
+msgid ""
+"Text appended to your page URLs to manage new contents in account pages. It "
+"must be unique for every page."
+msgstr ""
+"Текст, добавленный к URL адресам вашей страницы, для управления новым "
+"содержимым в страницах аккаунта. Это должно быть уникальным для каждой "
+"страницы."
+
+#: templates/admin/endpoint-item.php:73
+msgid "Endpoint label"
+msgstr "Этикетка эндпоинта"
+
+#: templates/admin/endpoint-item.php:74 templates/admin/group-item.php:44
+msgid "Menu item for this endpoint in \"My Account\"."
+msgstr "Элемент меню для этого эндпоинта в «Моё аккаунт»"
+
+#: templates/admin/endpoint-item.php:84
+msgid "Endpoint icon"
+msgstr "Иконка эндпоинта"
+
+#: templates/admin/endpoint-item.php:85
+msgid "Endpoint icon for \"My Account\" menu option"
+msgstr "Иконка эндпоинта для опции меню \"Мой аккаунт»"
+
+#: templates/admin/endpoint-item.php:89 templates/admin/group-item.php:59
+#: templates/admin/link-item.php:73
+msgid "No icon"
+msgstr "Нет иконки"
+
+#: templates/admin/endpoint-item.php:99
+#, fuzzy
+msgid "Endpoint class"
+msgstr "Этикетка эндпоинта"
+
+#: templates/admin/endpoint-item.php:100
+msgid "Add additional classes to endpoint container."
+msgstr ""
+
+#: templates/admin/endpoint-item.php:109 templates/admin/group-item.php:79
+#: templates/admin/link-item.php:94
+msgid "User roles"
+msgstr "Роль пользователя"
+
+#: templates/admin/endpoint-item.php:111 templates/admin/group-item.php:81
+#: templates/admin/link-item.php:95
+msgid "Restrict endpoint visibility to the following user role(s)."
+msgstr "Ограничить видимости эндпоинта в зависимости от роли пользователя."
+
+#: templates/admin/endpoint-item.php:130
+#, fuzzy
+msgid "Membership plans"
+msgstr "План членства"
+
+#: templates/admin/endpoint-item.php:132
+#, fuzzy
+msgid ""
+"Restrict endpoint visibility to users who are purchased following memnership "
+"plan(s)"
+msgstr "Ограничить видимости эндпоинта в зависимости от роли пользователя."
+
+#: templates/admin/endpoint-item.php:150
+msgid "Endpoint custom content"
+msgstr "Пользовательский контент эндпоинта"
+
+#: templates/admin/endpoint-item.php:151
+msgid "Custom endpoint content. Leave it black to use default content."
+msgstr ""
+"Пользовательский контент эндпоинта. Оставьте пустым для использования "
+"контента по умолчанию."
+
+#: templates/admin/group-item.php:19
+msgid "Group"
+msgstr "Группа"
+
+#: templates/admin/group-item.php:43
+msgid "Group label"
+msgstr "Значок группы"
+
+#: templates/admin/group-item.php:54
+#, fuzzy
+msgid "Group icon"
+msgstr "Нет иконки"
+
+#: templates/admin/group-item.php:55
+#, fuzzy
+msgid "Group icon for \"My Account\" menu option"
+msgstr "Иконка эндпоинта для опции меню \"Мой аккаунт»"
+
+#: templates/admin/group-item.php:69
+#, fuzzy
+msgid "Group class"
+msgstr "Значок группы"
+
+#: templates/admin/group-item.php:70
+msgid "Add additional classes to group container."
+msgstr ""
+
+#: templates/admin/group-item.php:97
+msgid "Show open"
+msgstr "Открыть показ"
+
+#: templates/admin/group-item.php:98
+msgid ""
+"Show the group open by default. (Please note: this option is valid only for "
+"\"Sidebar\" style)"
+msgstr ""
+"Показать открытую группу по умолчанию (Пожалуйста помните: эта опция "
+"подходит только для стиля «Сайдбар»)"
+
+#: templates/admin/items-list.php:22
+msgid "Add group"
+msgstr "Добавить группу"
+
+#: templates/admin/items-list.php:23
+msgid "Add endpoint"
+msgstr "Добавить эндпоинт"
+
+#: templates/admin/items-list.php:24
+#, fuzzy
+msgid "Add link"
+msgstr "Добавить эндпоинт"
+
+#: templates/admin/items-list.php:51
+msgctxt "Label for new endpoint title"
+msgid "Name"
+msgstr "Имя"
+
+#: templates/admin/link-item.php:19
+msgid "Link"
+msgstr ""
+
+#: templates/admin/link-item.php:46
+msgid "Link url"
+msgstr ""
+
+#: templates/admin/link-item.php:47
+#, fuzzy
+msgid "The url of the menu item."
+msgstr "Выберите цвет для элемента меню"
+
+#: templates/admin/link-item.php:57
+#, fuzzy
+msgid "Link label"
+msgstr "Этикетка эндпоинта"
+
+#: templates/admin/link-item.php:58
+#, fuzzy
+msgid "Menu label for this link in \"My Account\"."
+msgstr "Элемент меню для этого эндпоинта в «Моё аккаунт»"
+
+#: templates/admin/link-item.php:68
+#, fuzzy
+msgid "Link icon"
+msgstr "Иконка эндпоинта"
+
+#: templates/admin/link-item.php:69
+#, fuzzy
+msgid "Link icon for \"My Account\" menu option"
+msgstr "Иконка эндпоинта для опции меню \"Мой аккаунт»"
+
+#: templates/admin/link-item.php:84
+#, fuzzy
+msgid "Link class"
+msgstr "Этикетка эндпоинта"
+
+#: templates/admin/link-item.php:85
+msgid "Add additional classes to link container."
+msgstr ""
+
+#: templates/admin/link-item.php:111
+msgid "Open link in a new tab?"
+msgstr ""
+
+#. translators: %s Customer first name
+#: templates/email/customer-verify-account.php:21
+#: templates/email/plain/customer-verify-account.php:19
+msgid "Hi %s,"
+msgstr ""
+
+#. translators: %1$s: Site title, %2$s: Username, %3$s: My account link
+#: templates/email/customer-verify-account.php:23
+#: templates/email/plain/customer-verify-account.php:21
+msgid ""
+"Thanks for creating an account on %1$s. To complete registration process you "
+"need to verify your account email by clicking this link: %2$s"
+msgstr ""
+
+#: templates/email/customer-verify-account.php:25
+#: templates/email/plain/customer-verify-account.php:23
+msgid "We look forward to seeing you soon."
+msgstr ""
+
+#: templates/ywcmap-myaccount-avatar-form.php:14
+msgid "Upload your avatar"
+msgstr "Загрузите ваш аватар"
+
+#: templates/ywcmap-myaccount-avatar-form.php:21
+msgid "Upload"
+msgstr "Загрузить"
+
+#: templates/ywcmap-myaccount-avatar-form.php:28
+msgid "Reset to default"
+msgstr "Сбросить всё"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "YITH WooCommerce Customize My Account Page"
+msgstr "Настроить страницу моей учетной записи"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://yithemes.com/themes/plugins/yith-woocommerce-customize-myaccount-page"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The <code><strong>YITH WooCommerce Customize My Account Page</strong></code> "
+"lets you customize the layout of the \"My Account\" page, adds new endpoints "
+"and manage its content easily. <a href=\"https://yithemes.com/\" target="
+"\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH</"
+"strong></a>."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr ""
+
+#~ msgid "Saved Cards"
+#~ msgstr "Сохранённые карты"
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Документация плагина"

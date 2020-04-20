@@ -1,0 +1,4 @@
+.woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link--payouts a::before {
+    opacity: 1;
+    content: "\f155";
+}

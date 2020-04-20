@@ -1,0 +1,101 @@
+2020-04-17T10:43:03+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 82cc77f7428defbf5faba7f2f065cb63
+            [Date] => Apr 17, 2020 @ 10:43
+            [URL] => https://web.speedballcourier.com/api/woocommerce
+            [Duration] => 3.54288
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/4.0.0 Hookshot (WordPress/5.3.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://wisaki.co.ke/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => PHCKD5pP6qXY9B9DKY+8Sc4HU1S5E1Dg75iuAWOIC/c=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 82cc77f7428defbf5faba7f2f065cb63
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => http_request_failed
+                    [Message] => A valid URL was not provided.
+                    [Headers] => Array
+                        (
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+
+2020-04-17T11:02:05+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 79d566fcb0e3120413f8979c2aa85bd6
+            [Date] => Apr 17, 2020 @ 11:02
+            [URL] => https://web.speedballcourier.com/api/woocommerce
+            [Duration] => 3.93115
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/4.0.0 Hookshot (WordPress/5.3.2)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => https://wisaki.co.ke/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => hfd1nIqhL7KOwnY/6f24SiGX4cUgeMpSCJtMCm/kDeU=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 79d566fcb0e3120413f8979c2aa85bd6
+                        )
+
+                )
+
+            [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+            [Response] => Array
+                (
+                    [Code] => 200
+                    [Message] => OK
+                    [Headers] => Requests_Utility_CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [server] => nginx
+                                    [date] => Fri, 17 Apr 2020 11:02:05 GMT
+                                    [content-type] => application/json
+                                    [vary] => Accept-Encoding
+                                    [cache-control] => private, must-revalidate
+                                    [pragma] => no-cache
+                                    [expires] => -1
+                                    [x-ratelimit-limit] => 60
+                                    [x-ratelimit-remaining] => 59
+                                    [x-newrelic-app-data] => PxQFVVNaDgMER1NXBQEDUVMDABFORDQHUjZKA1ZLVVFHDFYPbU5yARBfWA86TE9cXwcOD1pURQUBExoDTFZTUgBSFFIWCAwKC1IVTABNEVNWUgADXlQBVgNXUAcOAQZESFdXXxEDPg==
+                                    [age] => 0
+                                    [x-cache] => MISS
+                                    [content-encoding] => gzip
+                                )
+
+                        )
+
+                    [Body] => Webhook body is not logged unless WP_DEBUG mode is turned on. This is to avoid the storing of personal data in the logs.
+                )
+
+        )
+
+)
+

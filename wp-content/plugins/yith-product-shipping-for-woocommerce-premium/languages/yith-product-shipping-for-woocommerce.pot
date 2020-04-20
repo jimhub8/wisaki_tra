@@ -1,0 +1,484 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Paypal Adaptive Payments\n"
+"POT-Creation-Date: 2018-05-10 15:15+0200\n"
+"PO-Revision-Date: 2015-06-25 17:07+0100\n"
+"Last-Translator: \n"
+"Language-Team: YIThemes <plugins@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.13\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-KeywordsList: __ ;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:80
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:81
+msgid "Vendor Shippings Table"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:88
+msgid "Vendor Shipping"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:91
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:97
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:100
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:89
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:98
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:49
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:76
+msgid "Product Shipping"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:113
+msgid "Shipping Vendor Table"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:133
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:140
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:462
+msgid "All states"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:188
+msgid "Shipping Costs"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:208
+msgid "Enable Shipping Costs"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:215
+msgid "Product Message"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:222
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:109
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:87
+msgid "Message Position"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:225
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:114
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:92
+#: ../plugin-options/general-options.php:22
+msgid "Before \"Add to cart\" button"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:226
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:115
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:93
+#: ../plugin-options/general-options.php:23
+msgid "After \"Add to cart\" button"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:283
+msgid "Product ID"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:290
+msgid "Cart Price"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:293
+msgid "Cart Quantity"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:294
+msgid "Product Quantity"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:297
+msgid "Product Weight"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:300
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:147
+msgid "Taxonomies"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:303
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:148
+msgid "Geolocation"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:306
+msgid "Shipping Cost"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:322
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:143
+msgid "Role"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:325
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:329
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:331
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:335
+msgid "Min"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:326
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:330
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:332
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:336
+msgid "Max"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:339
+msgid "Categories"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:340
+msgid "Tags"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:343
+msgid "Action"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:344
+msgid "Country"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:345
+msgid "State"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:346
+msgid "Postal Code"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:349
+msgid "Per product"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:350
+msgid "Per quantity"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:351
+msgid "Per order"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:399
+msgid "All roles"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:441
+msgid "Include"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:442
+msgid "Exclude"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:448
+msgid "All countries"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:493
+msgid "Insert row"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-admin.php:494
+msgid "Remove selected"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:35
+msgid "YITH Product Shipping"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:36
+msgid "Description of your custom shipping method."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:66
+msgid "Global Shipping Costs"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:71
+msgid "Single Products Summary"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:72
+msgid "not editable"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:91
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:51
+msgid "Enable"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:95
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:73
+msgid "Cart Method Name"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:97
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:75
+msgid "Shipping method title on the frontend."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:102
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:80
+msgid "Message for Global Products"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-method.php:104
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:82
+msgid "Inform customers about shipping costs."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:55
+msgid "Availability"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:60
+msgid "All allowed countries"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:61
+msgid "Specific Countries"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:65
+msgid "Countries"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:97
+msgid "Taxable"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:101
+msgid "Yes"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:102
+msgid "No"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:140
+msgid "Select columns to show in Shipping Costs table."
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:144
+msgid "Price"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:145
+msgid "Quantity"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:146
+msgid "Weight"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping-premium.php:169
+msgid "Custom Shipping Costs"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping.php:240
+msgid "Cost per product"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping.php:241
+msgid "Cost per quantity"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping.php:247
+msgid "Cost per order"
+msgstr ""
+
+#: ../includes/class.yith-woocommerce-product-shipping.php:250
+msgid "Total cart items"
+msgstr ""
+
+#: ../init.php:55
+msgid ""
+"YITH Product Shipping for WooCommerce is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+
+#: ../init.php:83
+msgid ""
+"You can't activate the free version of YITH Product Shipping for "
+"WooCommerce while you are using the premium one."
+msgstr ""
+
+#: ../plugin-options/general-options.php:12
+msgid "General"
+msgstr ""
+
+#: ../plugin-options/general-options.php:18
+msgid "Show add-ons"
+msgstr ""
+
+#: ../plugin-options/general-options.php:28
+msgid "\"Add to cart\" button label"
+msgstr ""
+
+#: ../plugin-options/general-options.php:30
+msgid "Change button label."
+msgstr ""
+
+#: ../plugin-options/general-options.php:32
+msgid "Select Options"
+msgstr ""
+
+#: ../plugin-options/general-options.php:38
+msgid "Show product price in Cart page"
+msgstr ""
+
+#: ../plugin-options/general-options.php:42
+msgid ""
+"Checking this option allows you to show the product base price in cart"
+msgstr ""
+
+#: ../plugin-options/general-options.php:47
+msgid "Always show the price table"
+msgstr ""
+
+#: ../plugin-options/general-options.php:51
+msgid ""
+"Checking this option allows you to always show the price table even if "
+"the total add-on amount is 0 in\n"
+"            on the product page"
+msgstr ""
+
+#: ../plugin-options/general-options.php:62
+msgid "Add-ons"
+msgstr ""
+
+#: ../plugin-options/general-options.php:68
+msgid "Show add-on titles"
+msgstr ""
+
+#: ../plugin-options/general-options.php:74
+msgid "Show add-on images"
+msgstr ""
+
+#: ../plugin-options/general-options.php:80
+msgid "Show add-on descriptions"
+msgstr ""
+
+#: ../plugin-options/general-options.php:91
+msgid "Options"
+msgstr ""
+
+#: ../plugin-options/general-options.php:97
+msgid "Show option images"
+msgstr ""
+
+#: ../plugin-options/general-options.php:103
+msgid "Show option descriptions"
+msgstr ""
+
+#: ../plugin-options/general-options.php:109
+msgid "Option image"
+msgstr ""
+
+#: ../plugin-options/general-options.php:116
+msgid "Date Format"
+msgstr ""
+
+#: ../plugin-options/general-options.php:118
+msgid "Set the format of the date control eg: mm/dd/yy"
+msgstr ""
+
+#: ../plugin-options/general-options.php:120
+msgid "mm/dd/yy"
+msgstr ""
+
+#: ../plugin-options/general-options.php:133
+msgid "Tooltip"
+msgstr ""
+
+#: ../plugin-options/general-options.php:140
+msgid "Enable tooltip"
+msgstr ""
+
+#: ../plugin-options/general-options.php:142
+msgid "Enable tooltip on options"
+msgstr ""
+
+#: ../plugin-options/general-options.php:147
+msgid "Tooltip position"
+msgstr ""
+
+#: ../plugin-options/general-options.php:148
+msgid "Select tooltip position"
+msgstr ""
+
+#: ../plugin-options/general-options.php:151
+msgid "Top"
+msgstr ""
+
+#: ../plugin-options/general-options.php:152
+msgid "Bottom"
+msgstr ""
+
+#: ../plugin-options/general-options.php:158
+msgid "Tooltip animation"
+msgstr ""
+
+#: ../plugin-options/general-options.php:159
+msgid "Select tooltip animation"
+msgstr ""
+
+#: ../plugin-options/general-options.php:162
+msgid "Fade in"
+msgstr ""
+
+#: ../plugin-options/general-options.php:163
+msgid "Slide in"
+msgstr ""
+
+#: ../plugin-options/general-options.php:169
+msgid "Tooltip background"
+msgstr ""
+
+#: ../plugin-options/general-options.php:170
+#: ../plugin-options/general-options.php:177
+msgid "Pick a color"
+msgstr ""
+
+#: ../plugin-options/general-options.php:176
+msgid "Tooltip text color"
+msgstr ""
+
+#: ../plugin-options/general-options.php:187
+msgid "Uploading options"
+msgstr ""
+
+#: ../plugin-options/general-options.php:193
+msgid "Uploading folder name"
+msgstr ""
+
+#: ../plugin-options/general-options.php:195
+msgid "Any change you make now will only affect future uploads."
+msgstr ""
+
+#: ../plugin-options/general-options.php:202
+msgid "Uploading file types"
+msgstr ""
+
+#: ../plugin-options/general-options.php:204
+msgid "Separate file extensions using commas. Ex: .gif, .jpg, .png"
+msgstr ""
+
+#: ../plugin-options/general-options.php:211
+msgid "Uploading file size (MB)"
+msgstr ""
+
+#: ../plugin-options/general-options.php:213
+msgid "Maximum size allowed for uploaded file"
+msgstr ""

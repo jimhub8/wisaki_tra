@@ -1,0 +1,117 @@
+@media (max-width: 767px) and (min-width: 640px) {
+
+}
+
+@media (max-width: 640px) {
+	.header-style1{
+		.header-bottom{
+			.search-cate{
+				.search-tog{
+					i{
+						display: block; visibility: visible; opacity: 1;
+					}
+				}
+			}
+			.emarket_top{
+				position: absolute; top: 60px; right: 70px; padding: 0; display: none;
+				.rtl &{
+					right: auto; left: 70px;
+				}
+				.top-form.top-search{
+					margin-right: 0; margin-top: 0;
+					.rtl &{
+						margin-left: 0;
+					}
+				}
+			}
+			.top-form{
+				.topsearch-entry{
+					padding-left:0;
+					.rtl &{
+						padding-right:0;
+					}
+					.icon-loading.loading{
+						right: 95px;
+					}
+					.cat-wrapper{
+						display:none;
+					}
+					input{
+						border:1px solid @border-color;
+						height:40px;
+						padding-left:20px; padding-right:20px;
+						border-radius: 4px 0 0 4px;
+						.rtl &{
+							border-radius:0 4px 4px 0;
+						}
+					}
+					.button-search-pro{
+						background-color:lighten( @body-color, 14% );
+						border-radius:0 4px 4px 0;
+						height:40px;
+						line-height:40px;
+						width:auto;
+						padding:0 30px;
+						.rtl &{
+							border-radius: 4px 0 0 4px;
+						}
+						&:hover{
+							background-color:@color + #141415;
+						}
+					}
+				}
+			}
+		}
+	}
+	.comming-soon .ClassyCountdown-wrapper > div{
+		margin:10px 5px;
+	}
+	#comments{
+		.commentlist .children{
+			margin-left:10px;
+			.rtl &{
+				margin-right:10px;
+				margin-left:0;
+			}
+		}
+		.comment{
+			.author{
+				float: none !important;
+				margin-bottom: 10px;
+			}
+			.media-body{
+				padding: 0 !important;
+				.media .media-heading .time{
+					padding:0 10px;
+				}
+			}
+		}
+	}
+	.wp-comingsoon .title-comingsoon .des-comingsoon{
+		width:100%;
+	}
+	#respond .wp-comment .form-horizontal .cmm-box-top .control-group{
+		width:100%;
+	}
+	.countdown-slider.style1 .slider .item-countdown .item-wrap .item-detail{
+		.item-image-countdown{
+			width: 100%; margin: 0 0 15px 0;
+		}
+		.item-content{
+			padding: 0; overflow: inherit;
+		}
+	}
+	.countdown-slider.style3 .slider .item-countdown .item-wrap4 .item-detail .item-image-countdown{
+		width: 100%; margin: 0;
+		.rtl &{
+			margin: 0;
+		}
+	}
+	.sw_tab_countdown2 .tab-countdown-slide .tab-content .item-wrap .item-detail .item-content .count-left{
+		display: none;
+	}
+}
+
+@media (max-width: 639px) {
+
+}

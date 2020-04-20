@@ -1,0 +1,63 @@
+2020-03-23T13:54:08+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php:638
+Stack trace:
+#0 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(325): sw_mostviewed_products_shortcode(Array, '', 'product_mostvie...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_mostvi...')
+#3 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php(719): do_shortcode('[product_mostvi...')
+#4 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/classes/editors/class-vc-frontend-editor.php(643): Vc_Frontend_Editor->renderShortcodes(Array)
+#5 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/class- in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php on line 638
+
+2020-03-23T13:54:11+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php:638
+Stack trace:
+#0 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(325): sw_mostviewed_products_shortcode(Array, '', 'product_mostvie...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '<p>[vc_row full...')
+#3 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('<p>[vc_row full...')
+#4 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('<p>[vc_row full...', Array)
+#5 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/wordpress-seo-premium/admin/links/class-link-watcher.php(135): apply_filters('the_content', '<p>[vc_row fu in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php on line 638
+
+2020-03-23T13:54:19+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php:638
+Stack trace:
+#0 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(325): sw_mostviewed_products_shortcode(Array, '', 'product_mostvie...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_mostvi...')
+#3 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/helpers/helpers.php(240): do_shortcode('[product_mostvi...')
+#4 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/templates/shortcodes/vc_column_inner.php(51): wpb_js_remove_wpautop('[product_mostvi...')
+#5 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/classes/s in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php on line 638
+
+2020-03-23T13:54:30+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php:638
+Stack trace:
+#0 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(325): sw_mostviewed_products_shortcode(Array, '', 'product_mostvie...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_mostvi...')
+#3 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/helpers/helpers.php(240): do_shortcode('[product_mostvi...')
+#4 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/templates/shortcodes/vc_column_inner.php(51): wpb_js_remove_wpautop('[product_mostvi...')
+#5 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/classes/s in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php on line 638
+
+2020-03-23T13:54:49+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php:638
+Stack trace:
+#0 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(325): sw_mostviewed_products_shortcode(Array, '', 'product_mostvie...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_mostvi...')
+#3 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/helpers/helpers.php(240): do_shortcode('[product_mostvi...')
+#4 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/templates/shortcodes/vc_column_inner.php(51): wpb_js_remove_wpautop('[product_mostvi...')
+#5 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/classes/s in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php on line 638
+
+2020-03-23T13:54:51+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php:638
+Stack trace:
+#0 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(325): sw_mostviewed_products_shortcode(Array, '', 'product_mostvie...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_mostvi...')
+#3 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/helpers/helpers.php(240): do_shortcode('[product_mostvi...')
+#4 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/templates/shortcodes/vc_column_inner.php(51): wpb_js_remove_wpautop('[product_mostvi...')
+#5 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/classes/s in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php on line 638
+
+2020-03-23T13:55:02+00:00 CRITICAL Uncaught DivisionByZeroError: Modulo by zero in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php:638
+Stack trace:
+#0 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(325): sw_mostviewed_products_shortcode(Array, '', 'product_mostvie...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_mostvi...')
+#3 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/helpers/helpers.php(240): do_shortcode('[product_mostvi...')
+#4 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/templates/shortcodes/vc_column_inner.php(51): wpb_js_remove_wpautop('[product_mostvi...')
+#5 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/js_composer/include/classes/s in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/sw_woocommerce/includes/sw-woocommerce-shortcodes.php on line 638
+

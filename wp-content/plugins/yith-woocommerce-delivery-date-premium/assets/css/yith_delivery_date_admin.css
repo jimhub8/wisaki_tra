@@ -1,0 +1,312 @@
+/*PROCESSING TAB*/
+.ywcdd_required_field{
+    border:1px solid red!important;
+}
+
+#ywcdd_processing_type ul li {
+    display: inline-block;;
+    margin-right: 5em;
+}
+
+#ywcdd_processing_method_tab > *, #ywcdd_carrier_tab > * {
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+#ywcdd_processing_method_tab h2 {
+    font-size: 14px;
+}
+
+#ywcdd_processing_method_tab h2 a:before {
+    display: inline-block;
+    content: '+';
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+/**CUSTOM PROCESSING DAY*/
+
+.ywcdd_custom_processing_day_for_product, .ywcdd_custom_processing_day_for_categories {
+    margin-left: 20px;
+}
+
+.yith_wcdd_panel_processing_day .ywcdd_delete{
+    display: none!important;
+}
+.ywcdd_form_processing_day {
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 0 0 #ddd;
+    margin-bottom: 20px;
+}
+
+.ywcdd_form_processing_day label, .ywcdd_quantity_list label {
+    width: 135px;
+    display: inline-block;
+}
+
+.ywcdd_quantity_day_container {
+    margin-top: 30px;
+    position: relative;
+}
+.ywcdd_quantity_day_container input[type="submit"]{
+ display: inline-block;
+}
+.ywcdd_quantity_list label {
+    vertical-align: top;
+}
+
+.ywcdd_quantity_list, .ywcdd_quantity_row {
+    display: inline-block;
+}
+
+.ywcdd_quantity_list input[type="number"] {
+
+    max-width: 50px !important;
+
+}
+.ywcdd_quantity_item{
+    margin-bottom: 10px;
+}
+.ywcdd_quantity_list .description {
+    margin-left: 135px;
+    max-width: 50%;
+}
+
+.ywcdd_action_container {
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    bottom: 0;
+    right: 0;
+}
+
+.ywcdd_add_new_range_container {
+    margin-left: 135px;
+    margin-top: 10px;
+}
+
+.ywcdd_form_processing_day {
+    display: none;
+}
+
+.ywcdd_list_row {
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 0 0 #ddd;
+    margin: 20px 0;
+}
+
+.ywcdd_list_row .ywcdd_list_title {
+    position: relative;
+    border-color: #ccc;
+    border-width: 1px 0
+}
+
+.ywcdd_list_row .ywcdd_list_title h3 {
+    margin: 0;
+    padding: 20px 20px 20px 56px;
+    display: inline-block;
+    position: relative;
+    min-width: 173px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.ywcdd_list_row.ywcdd_list_row_close .ywcdd_custom_processing_method__toggle span,
+.ywcdd_list_row.ywcdd_list_row_close .ywcdd_time_slot__toggle span
+{
+    transform: translateX(50%) translateY(-50%) rotateZ(180deg);
+}
+
+.ywcdd_custom_processing_method__toggle, .ywcdd_custom_processing_method__enabled,
+.ywcdd_time_slot__toggle, .ywcdd_time_slot__enabled{
+    position: absolute;
+    top: 50%;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    color: #333;
+    cursor: pointer;
+}
+
+.ywcdd_custom_processing_method__toggle > span, .ywcdd_custom_processing_method__enabled > span,
+.ywcdd_time_slot__toggle > span, .ywcdd_time_slot__enabled > span{
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translateX(50%) translateY(-50%);
+    transition: transform .3s;
+}
+
+.ywcdd_custom_processing_method__toggle, .ywcdd_time_slot__toggle {
+    left: 10px;
+}
+
+.ywcdd_custom_processing_method__toggle:hover, .ywcdd_time_slot__toggle:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.ywcdd_custom_processing_method__enabled, .ywcdd_time_slot__enabled {
+    right: 10px;
+}
+
+.ywcdd_list_content {
+    padding: 0 20px 20px 20px;
+}
+
+.ywcdd_list_row.ywcdd_list_row_close .ywcdd_list_content {
+    display: none;
+}
+
+.ywcdd_delete_range{
+    display: inline-block;
+    text-indent: -9999px;
+    position: relative;
+    font-size: 18px;
+}
+
+.ywcdd_delete_range:before{
+    font-family: Dashicons;
+    speak: none;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    text-indent: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\f153";
+    color: rgb(153, 153, 153);
+    font-variant: normal;
+    margin: 0px;
+}
+
+.ywcdd_delete_range:hover:before{
+    color:#ff0000;
+}
+
+/*CALENDAR TAB*/
+
+
+#ywcdd_general_calendar .fc-row table th{
+    padding: 0!important;
+    width: auto!important;
+}
+#yith_delivery_date_panel_general-calendar .yit-admin-panel-content-wrap{
+    overflow: auto;
+}
+.fc-event-container a{
+
+    position: relative;
+}
+.ywcdd_delete_calendar{
+    position: absolute;
+    top:5px;
+    right: 5px;
+    z-index:99;
+    cursor: pointer;
+}
+
+.ywcdd_delete_calendar:after{
+    font-family: 'WooCommerce';
+    content: '\e013';
+}
+#ywcdd_general_calendar .fc-view-container{
+    background: #fff;
+}
+
+#ywcdd_add_holiday_container{
+    padding-left: 25px;
+}
+#ywcdd_add_new_holiday{
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 0 0 #ddd;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: none;
+
+}
+
+div#ywcdd_add_new_holiday p {
+    display: inline-block;
+    padding: 0;
+    margin-right:1em;
+    width: 17.6%;
+    vertical-align: middle;
+
+}
+div#ywcdd_add_new_holiday p:last-child{
+    margin-top: 23px;
+}
+
+div#ywcdd_add_new_holiday p input{
+  height: 35px;
+}
+
+#ywcdd_holiday_list  tbody .ywcdd_holiday_name{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#ywcdd_holiday_list .onoff {
+    width: 63px;
+    padding: 20px 35px !important;
+}
+#ywcdd_holiday_list tbody th:last-child{
+    text-align: right;
+    padding-right: 5px;
+}
+#ywcdd_holiday_list th {
+    padding-left: 10px!important;
+    width: auto!important;
+}
+#ywcdd_holiday_list tbody td .yith-plugin-fw-field-wrapper.yith-plugin-fw-onoff-field-wrapper {
+      width: 36px;
+  }
+#ywcdd_holiday_list tbody td:last-child, #ywcdd_holiday_list thead th:last-child {
+    text-align: right;
+    padding-right: 35px;
+}
+#ywcdd_holiday_list .ywcdd_edit_row_holiday{
+    display: none;
+}
+#ywcdd_holiday_list tr td.ywcdd_row_holiday a.ywcdd_edit_holiday{
+    width: 14px;
+    height: 0;
+    padding: 14px 0 0;
+    margin: 0 0 0 6px;
+    overflow: hidden;
+    position: relative;
+    color: #999;
+    border: 0;
+}
+#ywcdd_holiday_list tr td div.ywcdd_row_holiday a.ywcdd_edit_holiday:hover{
+    color:#000;
+}
+#ywcdd_holiday_list tr td div.ywcdd_row_holiday a.ywcdd_edit_holiday:hover:after{
+ cursor: pointer;
+}
+#ywcdd_holiday_list tr td div.ywcdd_row_holiday a.ywcdd_edit_holiday:after{
+    font-family: Dashicons;
+    content: '\f464';
+    vertical-align: middle;
+    float: left;
+    margin-right: 10px;
+    line-height: 28px;
+}
+#ywcdd_holiday_list tbody td .select2.select2-container, #ywcdd_add_new_holiday p .select2.select2-container{
+    min-width: 100%!important;
+    width: 100%!important;
+}
+#ywcdd_calendar_panel .yit-admin-panel-content-wrap table.form-table .select2-container{
+    min-width: auto!important;
+}

@@ -1,0 +1,370 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sw Product Bundles\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-21 03:33+0000\n"
+"PO-Revision-Date: 2020-01-16 10:07+0700\n"
+"Last-Translator: admin <admin@gmail.com>\n"
+"Language-Team: Tiếng Việt\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Loco-Version: 2.2.0; wp-5.0.2\n"
+
+#: includes/themes/sw-bundle-product-slider/hotcombo.php:71
+msgid " ITEMS"
+msgstr ""
+
+#: front-end/product-form.php:130
+#, php-format
+msgid "\"%s\" has been added to your cart."
+msgid_plural "\"%s\" have been added to your cart."
+msgstr[0] "\"%s\" đã được thêm vào giỏ hàng"
+
+#. Description of the plugin
+msgid "A plugin help to display woocommerce beauty."
+msgstr ""
+
+#: admin/view/admin-form.php:113
+msgid "Add Products"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/hotcombo.php:6
+msgid "All Categories"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:616
+msgid "Ascending"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:231
+#: includes/sw-bundle-product-slider-widget.php:235
+#: includes/sw-bundle-product-slider-widget.php:758
+msgid "Auto Play"
+msgstr ""
+
+#: front-end/product-form.php:253
+msgid "Bundle Includes"
+msgstr ""
+
+#: admin/view/admin-form.php:21
+msgid "Bundled"
+msgstr ""
+
+#: admin/view/admin-form.php:15
+msgid "Bundled Product"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:134
+#: includes/sw-bundle-product-slider-widget.php:580
+msgid "Category"
+msgstr ""
+
+#: admin/view/list.php:90
+msgid "Check if you want to include the tax with price."
+msgstr ""
+
+#: admin/view/list.php:89
+msgid "Check if you want to show the category of this product."
+msgstr ""
+
+#: admin/view/list.php:88
+msgid "Check if you want to show the thumbnail of this product."
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:105
+msgid ""
+"Choose Product Title Length if you want to trim word, leave 0 to not trim "
+"word"
+msgstr ""
+
+#: admin/view/admin-form.php:111
+msgid "Close all"
+msgstr ""
+
+#: front-end/product-form.php:359
+msgid "Combo"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:802
+msgid "Default"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:613
+msgid "Descending"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:573
+msgid "Description"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:629
+msgid "Excerpt length (in words): "
+msgstr ""
+
+#: admin/view/admin-form.php:112
+msgid "Expand all"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:764
+msgid "False"
+msgstr ""
+
+#: admin/view/list.php:85
+msgid "from bundle"
+msgstr ""
+
+#: admin/view/list.php:93
+msgid "Give a special title, otherwise original title will be used instead."
+msgstr ""
+
+#: admin/view/list.php:92
+msgid ""
+"How many quantity should be added to the bundle. If you leave it blank, by "
+"default it will be 1"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wpthemego.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://wpthemego.com/premium-plugins/sw-product-bundles.html"
+msgstr ""
+
+#: admin/view/list.php:90
+msgid "Include Tax"
+msgstr ""
+
+#: includes/themes/sw-bundle-product-slider/hotcombo.php:71
+msgid "INCLUDED: "
+msgstr ""
+
+#: front-end/product-form.php:75
+msgid "instock"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:241
+#: includes/sw-bundle-product-slider-widget.php:245
+#: includes/sw-bundle-product-slider-widget.php:773
+msgid "Interval"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:111
+#: includes/sw-bundle-product-slider-widget.php:115
+msgid "Layout"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:175
+msgid "Number of Columns >1200px:"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:171
+#: includes/sw-bundle-product-slider-widget.php:658
+msgid "Number of Columns >1200px: "
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:211
+#: includes/sw-bundle-product-slider-widget.php:215
+msgid "Number of Columns in 480px or less than:"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:738
+msgid "Number of Columns in 480px or less than: "
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:201
+#: includes/sw-bundle-product-slider-widget.php:205
+msgid "Number of Columns on 480px to 767px:"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:718
+msgid "Number of Columns on 480px to 767px: "
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:191
+#: includes/sw-bundle-product-slider-widget.php:195
+msgid "Number of Columns on 768px to 991px:"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:698
+msgid "Number of Columns on 768px to 991px: "
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:181
+#: includes/sw-bundle-product-slider-widget.php:185
+msgid "Number of Columns on 992px to 1199px:"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:678
+msgid "Number of Columns on 992px to 1199px: "
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:622
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:637
+msgid "Number row per column:  "
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:160
+#: includes/sw-bundle-product-slider-widget.php:164
+#: includes/sw-bundle-product-slider-widget.php:607
+msgid "Order"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:150
+#: includes/sw-bundle-product-slider-widget.php:154
+msgid "Order By"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:586
+msgid "Orderby"
+msgstr ""
+
+#: front-end/product-form.php:77
+msgid "out of stock"
+msgstr ""
+
+#: admin/view/list.php:91
+msgid "Price"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:121
+msgid "Product Name"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:101
+#: includes/sw-bundle-product-slider-widget.php:566
+msgid "Product Title Length"
+msgstr ""
+
+#: admin/view/list.php:92
+msgid "Quantity"
+msgstr ""
+
+#: admin/view/list.php:85
+msgid "Remove"
+msgstr ""
+
+#: admin/view/list.php:101
+msgid ""
+"Search for products, select as many as product you want and add those to "
+"bundle using \"Add Products\". Only \"Simple\" or \"variable\" product are "
+"allowed to add. You can also drag drop to re arrange the order of bundled "
+"products in product page.!"
+msgstr ""
+
+#: admin/view/admin-form.php:103
+msgid "Search Products"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:74
+#: includes/sw-bundle-product-slider-widget.php:138
+msgid "Select Categories"
+msgstr ""
+
+#: admin/view/list.php:89
+msgid "Show Category"
+msgstr ""
+
+#: admin/view/admin-form.php:48
+msgid "Show on Cart Page"
+msgstr ""
+
+#: admin/view/admin-form.php:49
+msgid "Show on Order"
+msgstr ""
+
+#: admin/view/admin-form.php:47
+msgid "Show on Product Page"
+msgstr ""
+
+#: admin/view/list.php:88
+msgid "Show Thumbnail"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:221
+#: includes/sw-bundle-product-slider-widget.php:780
+msgid "Speed"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:225
+msgid "Speed Of Slide"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:81
+msgid "Sw Bundle Product Slider"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:43
+#: includes/sw-bundle-product-slider-widget.php:49
+msgid "Sw Bundle Product Slider Widget"
+msgstr ""
+
+#: sw-product-bundles.php:114
+msgid ""
+"Sw Bundles Product is enabled but not effective. It requires WooCommerce in "
+"order to work."
+msgstr ""
+
+#. Name of the plugin
+msgid "Sw Product Bundles"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:85
+msgid "SW Shortcodes"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:795
+msgid "Template"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:91
+#: includes/sw-bundle-product-slider-widget.php:95
+#: includes/sw-bundle-product-slider-widget.php:559 admin/view/list.php:93
+msgid "Title"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:252
+#: includes/sw-bundle-product-slider-widget.php:256
+#: includes/sw-bundle-product-slider-widget.php:788
+msgid "Total Items Slided"
+msgstr ""
+
+#: admin/view/admin-form.php:35
+msgid "Total Price"
+msgstr ""
+
+#: includes/sw-bundle-product-slider-widget.php:767
+msgid "True"
+msgstr ""
+
+#: admin/view/admin-form.php:48
+msgid "Un check if you want to hide the bundle on cart."
+msgstr ""
+
+#: admin/view/admin-form.php:49
+msgid "Un check if you want to hide the bundle on order."
+msgstr ""
+
+#: admin/view/admin-form.php:47
+msgid "Un check if you want to hide the bundle on product page."
+msgstr ""
+
+#: front-end/product-form.php:135
+msgid "View Cart"
+msgstr "Xem giỏ hàng"
+
+#. Author of the plugin
+msgid "wpthemego"
+msgstr ""
+
+#: front-end/product-form.php:375
+msgid ""
+"You cannot add that amount of quantity, because there is not enough stock"
+msgstr ""

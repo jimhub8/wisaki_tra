@@ -1,0 +1,9 @@
+2020-03-24T10:53:55+00:00 CRITICAL Uncaught Error: Class 'YITH_Multi_Vendor_Shortcodes' not found in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/yith-woocommerce-multi-vendor-premium/includes/class.yith-vendors-frontend-premium.php:1064
+Stack trace:
+#0 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/yith-woocommerce-multi-vendor-premium/includes/class.yith-vendors-frontend-premium.php(530): YITH_Vendors_Frontend_Premium->is_become_a_vendor_page()
+#1 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/class-wp-hook.php(288): YITH_Vendors_Frontend_Premium->enqueue_scripts('')
+#2 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-includes/script-loader.php(2670): do_action('wp_enqueue_scri...')
+#5 /home/317638.cloudwaysapps.com/wcujaeqhg in /home/317638.cloudwaysapps.com/wcujaeqhgc/public_html/wp-content/plugins/yith-woocommerce-multi-vendor-premium/includes/class.yith-vendors-frontend-premium.php on line 1064
+
